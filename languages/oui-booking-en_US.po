@@ -1,0 +1,2594 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oui! Booking\n"
+"POT-Creation-Date: 2018-08-17 18:12+0200\n"
+"PO-Revision-Date: 2018-08-17 18:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: obk.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: obk-admin-booking-crud.php:50
+msgid "Please select the place"
+msgstr "Please select the place"
+
+#: obk-admin-booking-crud.php:98
+msgid "The booking has been added"
+msgstr "The booking has been added"
+
+#: obk-admin-booking-crud.php:110
+msgid "The booking has been updated"
+msgstr "The booking has been updated"
+
+#: obk-admin-booking-crud.php:131
+msgid "added"
+msgstr "added"
+
+#: obk-admin-booking-crud.php:149
+msgid "The booking has been removed"
+msgstr "The booking has been removed"
+
+#: obk-admin-booking-crud.php:239 obk-functions-booking-preview-save.php:35
+msgid "Booking"
+msgstr "Booking"
+
+#: obk-admin-booking-crud.php:250 obk-admin-shortcodes.php:113
+#: obk-admin-shortcodes.php:207 obk-admin-ui.php:167
+#: obk-functions-booking-preview-save.php:63
+#: obk-functions-booking-preview-save.php:70 obk-functions.php:752
+#: obk-wpajax.php:759
+msgid "Place"
+msgstr "Place"
+
+#: obk-admin-booking-crud.php:251 obk-admin-bookings-general.php:117
+msgid "Price"
+msgstr "Price"
+
+#: obk-admin-booking-crud.php:252 obk-admin-bookings-general.php:37
+#: obk-functions.php:735 obk-functions.php:782
+msgid "Currency"
+msgstr "Currency"
+
+#: obk-admin-booking-crud.php:253 obk-admin-bookings-general.php:21
+#: obk-functions.php:757 obk-functions.php:783
+msgid "Time unit (in hours)"
+msgstr "Time unit (in hours)"
+
+#: obk-admin-booking-crud.php:254 obk-admin-bookings-general.php:39
+#: obk-functions.php:736 obk-functions.php:786 obk-shortcode.php:157
+msgid "Deposit requested (amount)"
+msgstr "Deposit requested (amount)"
+
+#: obk-admin-booking-crud.php:255 obk-admin-bookings-general.php:41
+#: obk-functions.php:737 obk-functions.php:787 obk-shortcode.php:161
+msgid "Deposit requested (percentage)"
+msgstr "Deposit requested (percentage)"
+
+#: obk-admin-booking-crud.php:257 obk-admin-bookings-display.php:75
+#: obk-admin-bookings-general.php:19 obk-functions-booking-preview-save.php:77
+#: obk-functions.php:733 obk-functions.php:780 obk-shortcode.php:308
+msgid "Number of places"
+msgstr "Number of places"
+
+#: obk-admin-booking-crud.php:258 obk-functions.php:738 obk-shortcode.php:311
+msgid "Arrival date"
+msgstr "Arrival date"
+
+#: obk-admin-booking-crud.php:259 obk-shortcode.php:314
+msgid "Arrival time"
+msgstr "Arrival time"
+
+#: obk-admin-booking-crud.php:260 obk-functions.php:739 obk-shortcode.php:330
+msgid "Departure date"
+msgstr "Departure date"
+
+#: obk-admin-booking-crud.php:261 obk-shortcode.php:333
+msgid "Departure time"
+msgstr "Departure time"
+
+#: obk-admin-booking-crud.php:262 obk-admin-bookings-display.php:100
+#: obk-functions.php:740 obk-shortcode.php:340
+msgid "Number of people"
+msgstr "Number of people"
+
+#: obk-admin-booking-crud.php:264 obk-admin-bookings-display.php:105
+#: obk-functions.php:741 obk-shortcode.php:341
+msgid "Last name"
+msgstr "Last name"
+
+#: obk-admin-booking-crud.php:265 obk-admin-bookings-display.php:110
+#: obk-functions.php:742 obk-shortcode.php:342
+msgid "First name"
+msgstr "First name"
+
+#: obk-admin-booking-crud.php:266 obk-admin-bookings-display.php:115
+#: obk-functions.php:743 obk-shortcode.php:343
+msgid "Address"
+msgstr "Address"
+
+#: obk-admin-booking-crud.php:267 obk-admin-bookings-display.php:120
+#: obk-functions.php:744 obk-shortcode.php:344
+msgid "Zip code"
+msgstr "Zip code"
+
+#: obk-admin-booking-crud.php:268 obk-admin-bookings-display.php:125
+#: obk-functions.php:745 obk-shortcode.php:345
+msgid "City"
+msgstr "City"
+
+#: obk-admin-booking-crud.php:269 obk-admin-bookings-display.php:130
+#: obk-functions.php:746 obk-shortcode.php:346
+msgid "Country"
+msgstr "Country"
+
+#: obk-admin-booking-crud.php:270 obk-admin-bookings-display.php:135
+#: obk-functions-booking-preview-save.php:56 obk-functions.php:747
+#: obk-shortcode.php:347
+msgid "Email"
+msgstr "Email"
+
+#: obk-admin-booking-crud.php:270
+msgid "Send an email"
+msgstr "Send an email"
+
+#: obk-admin-booking-crud.php:271 obk-functions-booking-preview-save.php:55
+#: obk-functions.php:748 obk-shortcode.php:348
+msgid "Tel."
+msgstr "Tel."
+
+#: obk-admin-booking-crud.php:273 obk-functions.php:749 obk-wpajax.php:757
+msgid "Status"
+msgstr "Status"
+
+#: obk-admin-booking-crud.php:281 obk-functions.php:731
+msgid "Internal reference"
+msgstr "Internal reference"
+
+#: obk-admin-booking-crud.php:282
+msgid "Registration date"
+msgstr "Registration date"
+
+#: obk-admin-booking-crud.php:283
+msgid "Registration time"
+msgstr "Registration time"
+
+#: obk-admin-booking-crud.php:284 obk-functions.php:753 obk-shortcode.php:349
+msgid "Comments"
+msgstr "Comments"
+
+#: obk-admin-booking-crud.php:288 obk-functions-booking-preview-save.php:221
+#: obk-functions-booking-preview-save.php:302
+#: obk-functions-booking-preview-save.php:372
+msgid "Total"
+msgstr "Total"
+
+#: obk-admin-booking-crud.php:289
+msgid "Initial price"
+msgstr "Initial price"
+
+#: obk-admin-booking-crud.php:291
+msgid "Price with options"
+msgstr "Price with options"
+
+#: obk-admin-booking-crud.php:293
+msgid "Price with taxes"
+msgstr "Price with taxes"
+
+#: obk-admin-booking-crud.php:295
+msgid "Price with deductions"
+msgstr "Price with deductions"
+
+#: obk-admin-booking-crud.php:297 obk-functions-booking-preview-save.php:425
+msgid "Total to pay"
+msgstr "Total to pay"
+
+#: obk-admin-booking-crud.php:301 obk-admin-parameters.php:72
+#: obk-admin-pricechanges.php:86 obk-admin-pricechanges.php:119
+#: obk-admin-pricechanges.php:153 obk-admin-pricechanges.php:187
+#: obk-admin-shortcodes.php:164
+msgid "Save"
+msgstr "Save"
+
+#: obk-admin-booking-crud.php:303
+msgid "Are you sure you want to delete this booking?"
+msgstr "Are you sure you want to delete this booking?"
+
+#: obk-admin-booking-crud.php:310 obk-admin-bookings-general.php:121
+#: obk-admin-bookings-general.php:205 obk-admin-pricechanges.php:87
+#: obk-admin-pricechanges.php:120 obk-admin-pricechanges.php:154
+#: obk-admin-pricechanges.php:188 obk-admin-shortcodes.php:176
+#: obk-admin-ui.php:45
+msgid "Delete"
+msgstr "Delete"
+
+#: obk-admin-bookings-calendar.php:33
+msgid "Arrivals of the week"
+msgstr "Arrivals of the week"
+
+#: obk-admin-bookings-coupons.php:4
+msgid "Coupons associated with the place"
+msgstr "Coupons associated with the place"
+
+#: obk-admin-bookings-coupons.php:14 obk-admin-bookings-coupons.php:35
+#: obk-admin-bookings-discounts.php:13 obk-admin-bookings-discounts.php:33
+#: obk-admin-bookings-options.php:15 obk-admin-bookings-options.php:56
+#: obk-admin-bookings-taxes.php:13 obk-admin-bookings-taxes.php:34
+#: obk-admin-ui.php:51 obk-shortcode.php:147
+msgid "Available on"
+msgstr "Available on"
+
+#: obk-admin-bookings-coupons.php:15 obk-admin-bookings-coupons.php:36
+#: obk-admin-bookings-discounts.php:14 obk-admin-bookings-discounts.php:34
+#: obk-admin-bookings-options.php:16 obk-admin-bookings-options.php:57
+#: obk-admin-bookings-taxes.php:14 obk-admin-bookings-taxes.php:35
+#: obk-admin-ui.php:52 obk-shortcode.php:150
+msgid "Until"
+msgstr "Until"
+
+#: obk-admin-bookings-coupons.php:16 obk-admin-bookings-coupons.php:37
+#: obk-admin-bookings-discounts.php:15 obk-admin-bookings-discounts.php:35
+#: obk-admin-bookings-taxes.php:15 obk-admin-bookings-taxes.php:36
+#: obk-admin-ui.php:53
+msgid "Remaining quantity"
+msgstr "Remaining quantity"
+
+#: obk-admin-bookings-coupons.php:17 obk-admin-bookings-coupons.php:38
+#: obk-admin-bookings-coupons.php:55 obk-admin-pricechanges.php:148
+msgid "Amount of the coupon."
+msgstr "Amount of the coupon."
+
+#: obk-admin-bookings-coupons.php:18 obk-admin-bookings-coupons.php:39
+#: obk-admin-bookings-coupons.php:56 obk-admin-pricechanges.php:149
+msgid "Percentage of the coupon."
+msgstr "Percentage of the coupon."
+
+#: obk-admin-bookings-coupons.php:19 obk-admin-bookings-coupons.php:40
+#: obk-admin-bookings-discounts.php:18 obk-admin-bookings-discounts.php:38
+#: obk-admin-bookings-options.php:31 obk-admin-bookings-options.php:72
+#: obk-admin-bookings-taxes.php:18 obk-admin-bookings-taxes.php:39
+#: obk-admin-ui.php:57 obk-functions-booking.php:257
+#: obk-functions-booking.php:296 obk-functions.php:925
+msgid "Periodicity"
+msgstr "Periodicity"
+
+#: obk-admin-bookings-coupons.php:20 obk-admin-bookings-coupons.php:41
+#: obk-admin-bookings-coupons.php:58 obk-admin-bookings-discounts.php:19
+#: obk-admin-bookings-discounts.php:39 obk-admin-bookings-discounts.php:55
+#: obk-admin-bookings-taxes.php:19 obk-admin-bookings-taxes.php:40
+#: obk-admin-bookings-taxes.php:56 obk-admin-pricechanges.php:151
+#: obk-admin-pricechanges.php:185 obk-admin-ui.php:58
+#: obk-functions-booking-preview-save.php:284
+#: obk-functions-booking-preview-save.php:356 obk-functions-booking.php:270
+#: obk-functions-booking.php:309 obk-wpajax.php:465 obk-wpajax.php:469
+msgid "Code"
+msgstr "Code"
+
+#: obk-admin-bookings-coupons.php:21 obk-admin-bookings-coupons.php:42
+#: obk-admin-bookings-coupons.php:59 obk-admin-bookings-discounts.php:20
+#: obk-admin-bookings-discounts.php:40 obk-admin-bookings-discounts.php:56
+#: obk-admin-bookings-display.php:54 obk-admin-bookings-general.php:29
+#: obk-admin-bookings-options.php:43 obk-admin-bookings-options.php:83
+#: obk-admin-bookings-options.php:109 obk-admin-bookings-taxes.php:20
+#: obk-admin-bookings-taxes.php:41 obk-admin-bookings-taxes.php:57
+#: obk-admin-pricechanges.php:85 obk-admin-pricechanges.php:118
+#: obk-admin-pricechanges.php:152 obk-admin-pricechanges.php:186
+#: obk-admin-ui.php:59 obk-functions-booking-preview-save.php:118
+#: obk-functions-booking-preview-save.php:208
+#: obk-functions-booking-preview-save.php:287
+#: obk-functions-booking-preview-save.php:358 obk-functions-booking.php:273
+#: obk-functions-booking.php:313 obk-functions.php:791
+msgid "Description / Details"
+msgstr "Description / Details"
+
+#: obk-admin-bookings-coupons.php:25
+msgid "List of all coupons"
+msgstr "List of all coupons"
+
+#: obk-admin-bookings-coupons.php:47
+msgid "New Coupon"
+msgstr "New Coupon"
+
+#: obk-admin-bookings-coupons.php:51 obk-admin-bookings-discounts.php:48
+#: obk-admin-bookings-general.php:17 obk-admin-bookings-options.php:91
+#: obk-admin-bookings-taxes.php:49 obk-admin-pricechanges.php:62
+#: obk-admin-pricechanges.php:111 obk-admin-pricechanges.php:144
+#: obk-admin-pricechanges.php:178 obk-functions-booking.php:253
+#: obk-functions-booking.php:281 obk-functions.php:917
+msgid "Label"
+msgstr "Label"
+
+#: obk-admin-bookings-coupons.php:51 obk-admin-pricechanges.php:144
+msgid "The name of the coupon."
+msgstr "The name of the coupon."
+
+#: obk-admin-bookings-coupons.php:52 obk-admin-bookings-discounts.php:49
+#: obk-admin-bookings-general.php:91 obk-admin-bookings-general.php:180
+#: obk-admin-bookings-options.php:92 obk-admin-bookings-taxes.php:50
+#: obk-admin-pricechanges.php:63 obk-admin-pricechanges.php:112
+#: obk-admin-pricechanges.php:145 obk-admin-pricechanges.php:179
+#: obk-functions.php:919
+msgid "Start date"
+msgstr "Start date"
+
+#: obk-admin-bookings-coupons.php:52 obk-admin-pricechanges.php:145
+msgid "Availability date of the coupon."
+msgstr "Availability date of the coupon."
+
+#: obk-admin-bookings-coupons.php:53 obk-admin-bookings-discounts.php:50
+#: obk-admin-bookings-options.php:93 obk-admin-bookings-taxes.php:51
+#: obk-admin-pricechanges.php:64 obk-admin-pricechanges.php:113
+#: obk-admin-pricechanges.php:146 obk-admin-pricechanges.php:180
+#: obk-functions.php:920
+msgid "End date"
+msgstr "End date"
+
+#: obk-admin-bookings-coupons.php:53 obk-admin-pricechanges.php:146
+msgid "End of availability date of the coupon."
+msgstr "End of availability date of the coupon."
+
+#: obk-admin-bookings-coupons.php:54 obk-admin-bookings-discounts.php:51
+#: obk-admin-bookings-taxes.php:52 obk-admin-pricechanges.php:147
+#: obk-admin-pricechanges.php:181 obk-functions-booking-preview-save.php:121
+#: obk-functions-booking.php:254 obk-functions-booking.php:293
+msgid "Quantity"
+msgstr "Quantity"
+
+#: obk-admin-bookings-coupons.php:54 obk-admin-pricechanges.php:147
+msgid ""
+"Total number of times the coupon can be used. Put 0 for an unlimited "
+"quantity."
+msgstr ""
+"Total number of times the coupon can be used. Put 0 for an unlimited "
+"quantity."
+
+#: obk-admin-bookings-coupons.php:55 obk-admin-bookings-discounts.php:52
+#: obk-admin-bookings-options.php:29 obk-admin-bookings-options.php:70
+#: obk-admin-bookings-options.php:105 obk-admin-bookings-taxes.php:16
+#: obk-admin-bookings-taxes.php:37 obk-admin-bookings-taxes.php:53
+#: obk-admin-pricechanges.php:82 obk-admin-pricechanges.php:115
+#: obk-admin-pricechanges.php:148 obk-admin-pricechanges.php:182
+#: obk-admin-ui.php:55 obk-functions-booking-preview-save.php:290
+#: obk-functions-booking-preview-save.php:361 obk-functions-booking.php:255
+#: obk-functions-booking.php:294 obk-functions.php:923
+msgid "Amount"
+msgstr "Amount"
+
+#: obk-admin-bookings-coupons.php:56 obk-admin-bookings-discounts.php:53
+#: obk-admin-bookings-options.php:30 obk-admin-bookings-options.php:71
+#: obk-admin-bookings-options.php:106 obk-admin-bookings-taxes.php:17
+#: obk-admin-bookings-taxes.php:38 obk-admin-bookings-taxes.php:54
+#: obk-admin-pricechanges.php:83 obk-admin-pricechanges.php:116
+#: obk-admin-pricechanges.php:149 obk-admin-pricechanges.php:183
+#: obk-admin-ui.php:56 obk-functions-booking-preview-save.php:135
+#: obk-functions-booking-preview-save.php:215
+#: obk-functions-booking-preview-save.php:294
+#: obk-functions-booking-preview-save.php:365 obk-functions-booking.php:256
+#: obk-functions-booking.php:295 obk-functions.php:924
+msgid "Percentage"
+msgstr "Percentage"
+
+#: obk-admin-bookings-coupons.php:57 obk-admin-pricechanges.php:150
+msgid "Periodicity of the coupon (in hours)"
+msgstr "Periodicity of the coupon (in hours)"
+
+#: obk-admin-bookings-coupons.php:57 obk-admin-pricechanges.php:150
+msgid ""
+"Set 0 for a fixed amount / percentage coupon or, for example, set \"24\" for "
+"a coupon applied for each day booked."
+msgstr ""
+"Set 0 for a fixed amount / percentage coupon or, for example, set \"24\" for "
+"a coupon applied for each day booked."
+
+#: obk-admin-bookings-coupons.php:58 obk-admin-pricechanges.php:151
+msgid "Code to enter to benefit from the coupon."
+msgstr "Code to enter to benefit from the coupon."
+
+#: obk-admin-bookings-coupons.php:60 obk-functions-booking.php:240
+msgid "Add the coupon"
+msgstr "Add the coupon"
+
+#: obk-admin-bookings-discounts.php:4
+msgid "Discounts associated with the place"
+msgstr "Discounts associated with the place"
+
+#: obk-admin-bookings-discounts.php:16 obk-admin-bookings-discounts.php:36
+#: obk-admin-bookings-discounts.php:52 obk-admin-pricechanges.php:182
+msgid "Discount amount"
+msgstr "Discount amount"
+
+#: obk-admin-bookings-discounts.php:17 obk-admin-bookings-discounts.php:37
+#: obk-admin-bookings-discounts.php:53 obk-admin-pricechanges.php:183
+msgid "Discount percentage"
+msgstr "Discount percentage"
+
+#: obk-admin-bookings-discounts.php:24
+msgid "List of all discounts"
+msgstr "List of all discounts"
+
+#: obk-admin-bookings-discounts.php:45
+msgid "New discount"
+msgstr "New discount"
+
+#: obk-admin-bookings-discounts.php:48 obk-admin-pricechanges.php:178
+msgid "The name of the discount."
+msgstr "The name of the discount."
+
+#: obk-admin-bookings-discounts.php:49 obk-admin-pricechanges.php:179
+msgid "Availability date of the discount."
+msgstr "Availability date of the discount."
+
+#: obk-admin-bookings-discounts.php:50 obk-admin-pricechanges.php:180
+msgid "End date of availability of the discount."
+msgstr "End date of availability of the discount."
+
+#: obk-admin-bookings-discounts.php:51 obk-admin-pricechanges.php:181
+msgid ""
+"Total number of times the discount can be used. Put 0 for an unlimited "
+"quantity."
+msgstr ""
+"Total number of times the discount can be used. Put 0 for an unlimited "
+"quantity."
+
+#: obk-admin-bookings-discounts.php:54 obk-admin-pricechanges.php:184
+msgid "Periodicity of the discount (in hours)"
+msgstr "Periodicity of the discount (in hours)"
+
+#: obk-admin-bookings-discounts.php:54 obk-admin-pricechanges.php:184
+msgid ""
+"Set 0 for a fixed amount / percentage discount or, for example, set \"24\" "
+"for a discount applied for each day booked."
+msgstr ""
+"Set 0 for a fixed amount / percentage discount or, for example, set \"24\" "
+"for a discount applied for each day booked."
+
+#: obk-admin-bookings-discounts.php:55 obk-admin-pricechanges.php:185
+msgid ""
+"Code to enter to benefit from the discount. Leave empty for an automatic "
+"discount."
+msgstr ""
+"Code to enter to benefit from the discount. Leave empty for an automatic "
+"discount."
+
+#: obk-admin-bookings-discounts.php:57
+msgid "Add discount"
+msgstr "Add discount"
+
+#: obk-admin-bookings-display.php:10 obk-admin-bookings-general.php:10
+#: obk-shortcode.php:256
+msgid "Information"
+msgstr "Information"
+
+#: obk-admin-bookings-display.php:14 obk-admin-bookings-general.php:132
+#: obk-functions.php:789
+msgid "Start date of availability"
+msgstr "Start date of availability"
+
+#: obk-admin-bookings-display.php:16 obk-admin-bookings-display.php:21
+#: obk-admin-bookings-display.php:26 obk-admin-bookings-display.php:31
+#: obk-admin-bookings-display.php:36 obk-admin-bookings-display.php:41
+#: obk-admin-bookings-display.php:46 obk-admin-bookings-display.php:51
+#: obk-admin-bookings-display.php:56 obk-admin-bookings-display.php:61
+#: obk-admin-bookings-display.php:77 obk-admin-bookings-display.php:82
+#: obk-admin-bookings-display.php:87 obk-admin-bookings-display.php:92
+#: obk-admin-bookings-display.php:97 obk-admin-bookings-display.php:102
+#: obk-admin-bookings-display.php:107 obk-admin-bookings-display.php:112
+#: obk-admin-bookings-display.php:117 obk-admin-bookings-display.php:122
+#: obk-admin-bookings-display.php:127 obk-admin-bookings-display.php:132
+#: obk-admin-bookings-display.php:137 obk-admin-bookings-display.php:142
+#: obk-admin-bookings-display.php:147
+msgid "Required"
+msgstr "Required"
+
+#: obk-admin-bookings-display.php:19 obk-admin-bookings-general.php:134
+#: obk-functions.php:790
+msgid "End date of availability"
+msgstr "End date of availability"
+
+#: obk-admin-bookings-display.php:24 obk-shortcode.php:153
+msgid "Price of the place"
+msgstr "Price of the place"
+
+#: obk-admin-bookings-display.php:29
+msgid "Deposit (Price)"
+msgstr "Deposit (Price)"
+
+#: obk-admin-bookings-display.php:34
+msgid "Deposit (Percentage)"
+msgstr "Deposit (Percentage)"
+
+#: obk-admin-bookings-display.php:39 obk-shortcode.php:164
+msgid "Time unit"
+msgstr "Time unit"
+
+#: obk-admin-bookings-display.php:44 obk-shortcode.php:167
+msgid "Min. booking duration"
+msgstr "Min. booking duration"
+
+#: obk-admin-bookings-display.php:49 obk-shortcode.php:170
+msgid "Max. booking duration"
+msgstr "Max. booking duration"
+
+#: obk-admin-bookings-display.php:59
+msgid "Calendar"
+msgstr "Calendar"
+
+#: obk-admin-bookings-display.php:63
+msgid ""
+"If an information is checked and \"Required\" is not checked, then the "
+"information is displayed only if it is relevant (different from zero, date "
+"not exceeded). To display the information in all cases, check \"Required\"."
+msgstr ""
+"If an information is checked and \"Required\" is not checked, then the "
+"information is displayed only if it is relevant (different from zero, date "
+"not exceeded). To display the information in all cases, check \"Required\"."
+
+#: obk-admin-bookings-display.php:71
+msgid "Form"
+msgstr "Form"
+
+#: obk-admin-bookings-display.php:80
+msgid "Booking start date"
+msgstr "Booking start date"
+
+#: obk-admin-bookings-display.php:85
+msgid "Booking start time"
+msgstr "Booking start time"
+
+#: obk-admin-bookings-display.php:90
+msgid "Booking end date"
+msgstr "Booking end date"
+
+#: obk-admin-bookings-display.php:95
+msgid "Booking end time"
+msgstr "Booking end time"
+
+#: obk-admin-bookings-display.php:140
+msgid "Phone"
+msgstr "Phone"
+
+#: obk-admin-bookings-display.php:145
+msgid "Notes"
+msgstr "Notes"
+
+#: obk-admin-bookings-display.php:149
+msgid ""
+"If \"Required\" is checked, then the field must be filled in to validate the "
+"booking."
+msgstr ""
+"If \"Required\" is checked, then the field must be filled in to validate the "
+"booking."
+
+#: obk-admin-bookings-display.php:155
+msgid "Save display"
+msgstr "Save display"
+
+#: obk-admin-bookings-general.php:12
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: obk-admin-bookings-general.php:13
+msgid ""
+"Copy-paste this shortcode into a post or page to display the booking form."
+msgstr ""
+"Copy-paste this shortcode into a post or page to display the booking form."
+
+#: obk-admin-bookings-general.php:18
+msgid ""
+"The name displayed to visitors (e.g. \"Classic houses\", \"Mobil-homes\", "
+"\"Guest houses\", \"Menus XL\", \"Holiday Home\", \"Departure for Paris"
+"\", ...)"
+msgstr ""
+"The name displayed to visitors (e.g. \"Classic houses\", \"Mobil-homes\", "
+"\"Guest houses\", \"Menus XL\", \"Holiday Home\", \"Departure for Paris"
+"\", ...)"
+
+#: obk-admin-bookings-general.php:20
+msgid ""
+"The total number of available places which can be booked at the same time. "
+"Put for example \"20\" if you have 20 places. Leave to zero if you do not "
+"want to set a limit. The number of people can be specified by the tenants on "
+"the form or in the \"Options\", for example to differentiate between adults "
+"and children or to define a maximum number of people per place."
+msgstr ""
+"The total number of available places which can be booked at the same time. "
+"Put for example \"20\" if you have 20 places. Leave to zero if you do not "
+"want to set a limit. The number of people can be specified by the tenants on "
+"the form or in the \"Options\", for example to differentiate between adults "
+"and children or to define a maximum number of people per place."
+
+#: obk-admin-bookings-general.php:22
+msgid ""
+"For example, if the unit price includes 24hrs rental, set \"24\". For a day "
+"or overnight package, use the \"Options\". Set \"0\" for a fixed amount "
+"regardless of the booking duration."
+msgstr ""
+"For example, if the unit price includes 24hrs rental, set \"24\". For a day "
+"or overnight package, use the \"Options\". Set \"0\" for a fixed amount "
+"regardless of the booking duration."
+
+#: obk-admin-bookings-general.php:23 obk-functions.php:784
+msgid "Min. booking duration (in hours)"
+msgstr "Min. booking duration (in hours)"
+
+#: obk-admin-bookings-general.php:24
+msgid ""
+"For example if you rent two hours minimum, in this case put \"2\". Leave at "
+"zero if there is no minimum booking duration."
+msgstr ""
+"For example if you rent two hours minimum, in this case put \"2\". Leave at "
+"zero if there is no minimum booking duration."
+
+#: obk-admin-bookings-general.php:25 obk-functions.php:785
+msgid "Max. booking duration (in hours)"
+msgstr "Max. booking duration (in hours)"
+
+#: obk-admin-bookings-general.php:26
+msgid ""
+"For example if you rent one week maximum, in this case put \"168\". Leave at "
+"zero if there is no maximum booking duration."
+msgstr ""
+"For example if you rent one week maximum, in this case put \"168\". Leave at "
+"zero if there is no maximum booking duration."
+
+#: obk-admin-bookings-general.php:27 obk-functions.php:788
+msgid "Link to the general Terms of Use"
+msgstr "Link to the general Terms of Use"
+
+#: obk-admin-bookings-general.php:28
+msgid ""
+"Link to an internal or external web page presenting your GCU. Leave blank if "
+"you do not want to see a link to the general terms of use."
+msgstr ""
+"Link to an internal or external web page presenting your GCU. Leave blank if "
+"you do not want to see a link to the general terms of use."
+
+#: obk-admin-bookings-general.php:30
+msgid "Use this field to describe your property, for example."
+msgstr "Use this field to describe your property, for example."
+
+#: obk-admin-bookings-general.php:33
+msgid "Prices"
+msgstr "Prices"
+
+#: obk-admin-bookings-general.php:35 obk-admin-bookings-general.php:93
+#: obk-functions.php:781
+msgid "Unit price of the place"
+msgstr "Unit price of the place"
+
+#: obk-admin-bookings-general.php:36
+msgid ""
+"Unit price of the place. Leave to zero if you do not want to set a price."
+msgstr ""
+"Unit price of the place. Leave to zero if you do not want to set a price."
+
+#: obk-admin-bookings-general.php:38
+msgid "Currency used to display prices."
+msgstr "Currency used to display prices."
+
+#: obk-admin-bookings-general.php:40
+msgid ""
+"The amount you request for the booking to be confirmed. Leave to zero if you "
+"do not ask for a fixed deposit."
+msgstr ""
+"The amount you request for the booking to be confirmed. Leave to zero if you "
+"do not ask for a fixed deposit."
+
+#: obk-admin-bookings-general.php:42
+msgid ""
+"The percentage of the price you request for the booking to be confirmed. "
+"Leave to zero if you do not ask for a percentage deposit."
+msgstr ""
+"The percentage of the price you request for the booking to be confirmed. "
+"Leave to zero if you do not ask for a percentage deposit."
+
+#: obk-admin-bookings-general.php:43 obk-functions-booking-preview-save.php:430
+#: obk-functions.php:795
+msgid "Payment instructions"
+msgstr "Payment instructions"
+
+#: obk-admin-bookings-general.php:44
+msgid ""
+"Tell your customers the instructions to follow to make the payment: check "
+"payable to, IBAN, ..."
+msgstr ""
+"Tell your customers the instructions to follow to make the payment: check "
+"payable to, IBAN, ..."
+
+#: obk-admin-bookings-general.php:56 obk-functions.php:797
+msgid "Prices according to days"
+msgstr "Prices according to days"
+
+#: obk-admin-bookings-general.php:60 obk-admin-bookings-general.php:138
+#: obk-admin-ui.php:26 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:67
+msgid "Monday"
+msgstr "Monday"
+
+#: obk-admin-bookings-general.php:62 obk-admin-bookings-general.php:66
+#: obk-admin-bookings-general.php:70 obk-admin-bookings-general.php:74
+#: obk-admin-bookings-general.php:78 obk-admin-bookings-general.php:82
+#: obk-admin-bookings-general.php:86
+msgid "Ignore periods"
+msgstr "Ignore periods"
+
+#: obk-admin-bookings-general.php:64 obk-admin-bookings-general.php:139
+#: obk-admin-ui.php:27 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:68
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: obk-admin-bookings-general.php:68 obk-admin-bookings-general.php:140
+#: obk-admin-ui.php:28 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:69
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: obk-admin-bookings-general.php:72 obk-admin-bookings-general.php:141
+#: obk-admin-ui.php:29 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:70
+msgid "Thursday"
+msgstr "Thursday"
+
+#: obk-admin-bookings-general.php:76 obk-admin-bookings-general.php:142
+#: obk-admin-ui.php:30 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:71
+msgid "Friday"
+msgstr "Friday"
+
+#: obk-admin-bookings-general.php:80 obk-admin-bookings-general.php:143
+#: obk-admin-ui.php:31 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:72
+msgid "Saturday"
+msgstr "Saturday"
+
+#: obk-admin-bookings-general.php:84 obk-admin-bookings-general.php:144
+#: obk-admin-ui.php:32 obk-functions-booking.php:93 obk-shortcode.php:125
+#: obk.php:73
+msgid "Sunday"
+msgstr "Sunday"
+
+#: obk-admin-bookings-general.php:88 obk-functions.php:798
+msgid "Prices according to periods"
+msgstr "Prices according to periods"
+
+#: obk-admin-bookings-general.php:92 obk-admin-bookings-general.php:181
+msgid "Finish date"
+msgstr "Finish date"
+
+#: obk-admin-bookings-general.php:94
+msgid "You can define new prices here according to different periods"
+msgstr "You can define new prices here according to different periods"
+
+#: obk-admin-bookings-general.php:95
+msgid "Add period"
+msgstr "Add period"
+
+#: obk-admin-bookings-general.php:97
+msgid "List of periods"
+msgstr "List of periods"
+
+#: obk-admin-bookings-general.php:130
+msgid "Availability"
+msgstr "Availability"
+
+#: obk-admin-bookings-general.php:133
+msgid "When can people book?"
+msgstr "When can people book?"
+
+#: obk-admin-bookings-general.php:135
+msgid "Until when can people book?"
+msgstr "Until when can people book?"
+
+#: obk-admin-bookings-general.php:136
+msgid "Days and hours of opening, arrival and departure"
+msgstr "Days and hours of opening, arrival and departure"
+
+#: obk-admin-bookings-general.php:148 obk-admin-bookings-general.php:158
+msgid "Open"
+msgstr "Open"
+
+#: obk-admin-bookings-general.php:149 obk-admin-ui.php:75 obk-wpajax.php:757
+#: obk.php:94
+msgid "Arrival"
+msgstr "Arrival"
+
+#: obk-admin-bookings-general.php:150 obk-admin-ui.php:76 obk-wpajax.php:757
+#: obk.php:95
+msgid "Departure"
+msgstr "Departure"
+
+#: obk-admin-bookings-general.php:165
+msgid "Duplicate on the whole week"
+msgstr "Duplicate on the whole week"
+
+#: obk-admin-bookings-general.php:168
+msgid ""
+"Indicate here the days and times your establishment is open. You can also "
+"define the days and times during which you accept arrivals, as well as for "
+"requested departures. If no items are entered for arrivals / departures, "
+"then it is the opening days that determine when arrivals / departures will "
+"be made. You can also choose a reference schedule for bookings. Thus, "
+"whatever the time of arrival or departure of your customers, this is the "
+"reference that will serve as a basis for calculating the duration and price"
+msgstr ""
+"Indicate here the days and times your establishment is open. You can also "
+"define the days and times during which you accept arrivals, as well as for "
+"requested departures. If no items are entered for arrivals / departures, "
+"then it is the opening days that determine when arrivals / departures will "
+"be made. You can also choose a reference schedule for bookings. Thus, "
+"whatever the time of arrival or departure of your customers, this is the "
+"reference that will serve as a basis for calculating the duration and price"
+
+#: obk-admin-bookings-general.php:174 obk-functions.php:796
+msgid "Interval in minutes for the user"
+msgstr "Interval in minutes for the user"
+
+#: obk-admin-bookings-general.php:175
+msgid ""
+"For example, put \"30\" if you want an interval of 30 minutes to let the "
+"user choose the start and end time."
+msgstr ""
+"For example, put \"30\" if you want an interval of 30 minutes to let the "
+"user choose the start and end time."
+
+#: obk-admin-bookings-general.php:177 obk-functions.php:823
+msgid "Exceptional closure"
+msgstr "Exceptional closure"
+
+#: obk-admin-bookings-general.php:182
+msgid "Add closure"
+msgstr "Add closure"
+
+#: obk-admin-bookings-general.php:184
+msgid "List of closures"
+msgstr "List of closures"
+
+#: obk-admin-bookings-general.php:213
+msgid "Booking registration"
+msgstr "Booking registration"
+
+#: obk-admin-bookings-general.php:215 obk-functions.php:792
+msgid "Default status of a new booking"
+msgstr "Default status of a new booking"
+
+#: obk-admin-bookings-general.php:216 obk-functions.php:18
+msgid "Validation in progress"
+msgstr "Validation in progress"
+
+#: obk-admin-bookings-general.php:217 obk-functions.php:19
+msgid "Pending payment"
+msgstr "Pending payment"
+
+#: obk-admin-bookings-general.php:218 obk-functions.php:20
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#: obk-admin-bookings-general.php:219 obk-functions.php:21
+msgid "Paid"
+msgstr "Paid"
+
+#: obk-admin-bookings-general.php:220 obk-functions.php:22
+msgid "Canceled"
+msgstr "Canceled"
+
+#: obk-admin-bookings-general.php:222
+msgid ""
+"Select the initial status of the booking when a customer makes a booking "
+"request."
+msgstr ""
+"Select the initial status of the booking when a customer makes a booking "
+"request."
+
+#: obk-admin-bookings-general.php:224 obk-functions.php:793
+msgid "Receive email"
+msgstr "Receive email"
+
+#: obk-admin-bookings-general.php:225
+msgid "Yes"
+msgstr "Yes"
+
+#: obk-admin-bookings-general.php:226
+msgid "No"
+msgstr "No"
+
+#: obk-admin-bookings-general.php:227
+msgid "Receive notification by email of a new booking"
+msgstr "Receive notification by email of a new booking"
+
+#: obk-admin-bookings-general.php:228 obk-functions.php:794
+msgid "Email notification"
+msgstr "Email notification"
+
+#: obk-admin-bookings-general.php:229
+msgid ""
+"Email address receiving bookings requests. If not specified, the default "
+"address stored in WordPress will be used."
+msgstr ""
+"Email address receiving bookings requests. If not specified, the default "
+"address stored in WordPress will be used."
+
+#: obk-admin-bookings-general.php:233
+msgid "Save general information"
+msgstr "Save general information"
+
+#: obk-admin-bookings-general.php:234
+msgid "Are you sure you want to delete this place?"
+msgstr "Are you sure you want to delete this place?"
+
+#: obk-admin-bookings-general.php:236
+msgid "Delete place"
+msgstr "Delete place"
+
+#: obk-admin-bookings-options.php:5
+msgid "Options associated with the place"
+msgstr "Options associated with the place"
+
+#: obk-admin-bookings-options.php:17 obk-admin-bookings-options.php:58
+#: obk-admin-ui.php:54
+msgid "Max. qty"
+msgstr "Max. qty"
+
+#: obk-admin-bookings-options.php:19 obk-admin-bookings-options.php:60
+#: obk-admin-bookings-options.php:95 obk-admin-pricechanges.php:68
+#: obk-admin-ui.php:64 obk-functions-booking.php:261
+#: obk-functions-booking.php:300
+msgid "Automatic quantity"
+msgstr "Automatic quantity"
+
+#: obk-admin-bookings-options.php:21 obk-admin-bookings-options.php:62
+#: obk-admin-bookings-options.php:96 obk-admin-pricechanges.php:70
+#: obk-admin-ui.php:65 obk-functions-booking.php:262
+#: obk-functions-booking.php:301
+msgid "User choice"
+msgstr "User choice"
+
+#: obk-admin-bookings-options.php:22 obk-admin-bookings-options.php:63
+#: obk-admin-bookings-options.php:97 obk-admin-pricechanges.php:71
+#: obk-admin-ui.php:66 obk-functions-booking.php:263
+#: obk-functions-booking.php:302 obk-wpajax.php:498
+msgid "Per booked hour"
+msgstr "Per booked hour"
+
+#: obk-admin-bookings-options.php:23 obk-admin-bookings-options.php:64
+#: obk-admin-bookings-options.php:98 obk-admin-pricechanges.php:72
+#: obk-admin-ui.php:67 obk-functions-booking.php:264
+#: obk-functions-booking.php:303 obk-wpajax.php:499
+msgid "Per booked day"
+msgstr "Per booked day"
+
+#: obk-admin-bookings-options.php:24 obk-admin-bookings-options.php:65
+#: obk-admin-bookings-options.php:99 obk-admin-pricechanges.php:73
+#: obk-admin-ui.php:68 obk-functions-booking.php:265
+#: obk-functions-booking.php:304 obk-wpajax.php:500
+msgid "Per booked night"
+msgstr "Per booked night"
+
+#: obk-admin-bookings-options.php:25 obk-admin-bookings-options.php:66
+#: obk-admin-bookings-options.php:100 obk-admin-pricechanges.php:74
+#: obk-admin-ui.php:69 obk-functions-booking.php:266
+#: obk-functions-booking.php:305 obk-wpajax.php:501
+msgid "Per booked week"
+msgstr "Per booked week"
+
+#: obk-admin-bookings-options.php:26 obk-admin-bookings-options.php:67
+#: obk-admin-bookings-options.php:101 obk-admin-pricechanges.php:75
+#: obk-admin-ui.php:70 obk-functions-booking.php:267
+#: obk-functions-booking.php:306 obk-wpajax.php:502
+msgid "Per booked month"
+msgstr "Per booked month"
+
+#: obk-admin-bookings-options.php:34 obk-admin-bookings-options.php:74
+#: obk-admin-bookings.php:105 obk-admin-pricechanges.php:41
+#: obk-admin-pricechanges.php:48 obk-admin-ui.php:60
+#: obk-functions-booking-preview-save.php:173
+msgid "Options"
+msgstr "Options"
+
+#: obk-admin-bookings-options.php:47
+msgid "List of all options"
+msgstr "List of all options"
+
+#: obk-admin-bookings-options.php:88
+msgid "New option"
+msgstr "New option"
+
+#: obk-admin-bookings-options.php:91 obk-admin-pricechanges.php:62
+msgid "The name of the option, visible to customers"
+msgstr "The name of the option, visible to customers"
+
+#: obk-admin-bookings-options.php:92 obk-admin-pricechanges.php:63
+msgid "Availability date for the option."
+msgstr "Availability date for the option."
+
+#: obk-admin-bookings-options.php:93 obk-admin-pricechanges.php:64
+msgid "End date of availability for the option."
+msgstr "End date of availability for the option."
+
+#: obk-admin-bookings-options.php:94 obk-admin-pricechanges.php:65
+msgid "Maximum quantity per booking"
+msgstr "Maximum quantity per booking"
+
+#: obk-admin-bookings-options.php:94 obk-admin-pricechanges.php:65
+msgid "Number of times the option can be used per booking."
+msgstr "Number of times the option can be used per booking."
+
+#: obk-admin-bookings-options.php:102 obk-admin-pricechanges.php:78
+msgid ""
+"Allows the creation of packages per day or per night. For example, if user "
+"booked for 3 days, the option will be applied 3 times."
+msgstr ""
+"Allows the creation of packages per day or per night. For example, if user "
+"booked for 3 days, the option will be applied 3 times."
+
+#: obk-admin-bookings-options.php:104 obk-functions.php:928
+msgid "Options details"
+msgstr "Options details"
+
+#: obk-admin-bookings-options.php:104 obk-admin-pricechanges.php:81
+msgid "Optional - Enter here the label for each option (1 line per option)"
+msgstr "Optional - Enter here the label for each option (1 line per option)"
+
+#: obk-admin-bookings-options.php:105 obk-admin-pricechanges.php:82
+msgid "Unit amount of the option."
+msgstr "Unit amount of the option."
+
+#: obk-admin-bookings-options.php:106 obk-admin-pricechanges.php:83
+msgid "Percentage of the option."
+msgstr "Percentage of the option."
+
+#: obk-admin-bookings-options.php:107 obk-admin-pricechanges.php:84
+msgid "Periodicity of the option (in hours)"
+msgstr "Periodicity of the option (in hours)"
+
+#: obk-admin-bookings-options.php:107 obk-admin-pricechanges.php:84
+msgid ""
+"Set 0 for a fixed amount/percentage option or, for example, set \"24\" for "
+"an option applied for each day reserved."
+msgstr ""
+"Set 0 for a fixed amount/percentage option or, for example, set \"24\" for "
+"an option applied for each day reserved."
+
+#: obk-admin-bookings-options.php:110 obk-functions-booking.php:238
+msgid "Add option"
+msgstr "Add option"
+
+#: obk-admin-bookings-taxes.php:4
+msgid "Taxes associated with the place"
+msgstr "Taxes associated with the place"
+
+#: obk-admin-bookings-taxes.php:24
+msgid "List of all taxes"
+msgstr "List of all taxes"
+
+#: obk-admin-bookings-taxes.php:46
+msgid "New tax"
+msgstr "New tax"
+
+#: obk-admin-bookings-taxes.php:49 obk-admin-pricechanges.php:111
+msgid "The name of the tax, visible to customers."
+msgstr "The name of the tax, visible to customers."
+
+#: obk-admin-bookings-taxes.php:50 obk-admin-pricechanges.php:112
+msgid "Start date for the tax."
+msgstr "Start date for the tax."
+
+#: obk-admin-bookings-taxes.php:51 obk-admin-pricechanges.php:113
+msgid "End date for the tax."
+msgstr "End date for the tax."
+
+#: obk-admin-bookings-taxes.php:52
+msgid "Total number of times the tax can be used."
+msgstr "Total number of times the tax can be used."
+
+#: obk-admin-bookings-taxes.php:53 obk-admin-pricechanges.php:115
+msgid "Fixed amount of tax."
+msgstr "Fixed amount of tax."
+
+#: obk-admin-bookings-taxes.php:54 obk-admin-pricechanges.php:116
+msgid "Percentage of tax."
+msgstr "Percentage of tax."
+
+#: obk-admin-bookings-taxes.php:55 obk-admin-pricechanges.php:117
+msgid "Periodicity of the tax (in hours)"
+msgstr "Periodicity of the tax (in hours)"
+
+#: obk-admin-bookings-taxes.php:55 obk-admin-pricechanges.php:117
+msgid ""
+"Set 0 for a fixed total amount / percentage tax or, for example, set \"24\" "
+"for a re-applied tax for each day booked."
+msgstr ""
+"Set 0 for a fixed total amount / percentage tax or, for example, set \"24\" "
+"for a re-applied tax for each day booked."
+
+#: obk-admin-bookings-taxes.php:56
+msgid "Code to enter to benefit from the tax."
+msgstr "Code to enter to benefit from the tax."
+
+#: obk-admin-bookings-taxes.php:58 obk-functions-booking.php:239
+msgid "Add tax"
+msgstr "Add tax"
+
+#: obk-admin-bookings.php:95
+msgid ""
+"Enter the main information about your place in the \"General\" tab and click "
+"on the save button."
+msgstr ""
+"Enter the main information about your place in the \"General\" tab and click "
+"on the save button."
+
+#: obk-admin-bookings.php:96
+msgid ""
+"Other tabs allow you to set options, taxes, coupons, discounts and the way "
+"the form has to be displayed."
+msgstr ""
+"Other tabs allow you to set options, taxes, coupons, discounts and the way "
+"the form has to be displayed."
+
+#: obk-admin-bookings.php:97
+msgid ""
+"Finally, get the shortcode and paste it where you want to display the "
+"booking form."
+msgstr ""
+"Finally, get the shortcode and paste it where you want to display the "
+"booking form."
+
+#: obk-admin-bookings.php:103 obk-admin-ui.php:9
+msgid "Bookings"
+msgstr "Bookings"
+
+#: obk-admin-bookings.php:104 obk-admin-parameters.php:43
+msgid "General"
+msgstr "General"
+
+#: obk-admin-bookings.php:106 obk-admin-pricechanges.php:41
+#: obk-admin-pricechanges.php:42 obk-admin-pricechanges.php:98
+#: obk-functions-booking-preview-save.php:247
+msgid "Taxes"
+msgstr "Taxes"
+
+#: obk-admin-bookings.php:107 obk-admin-pricechanges.php:43
+#: obk-admin-pricechanges.php:131
+msgid "Coupons"
+msgstr "Coupons"
+
+#: obk-admin-bookings.php:108 obk-admin-pricechanges.php:43
+#: obk-admin-pricechanges.php:44 obk-admin-pricechanges.php:165
+msgid "Discounts"
+msgstr "Discounts"
+
+#: obk-admin-bookings.php:109 obk-admin-shortcodes.php:242
+#: obk-functions.php:893
+msgid "Display"
+msgstr "Display"
+
+#: obk-admin-parameters.php:32
+msgid "General parameters updated"
+msgstr "General parameters updated"
+
+#: obk-admin-parameters.php:44
+msgid "Rounded to"
+msgstr "Rounded to"
+
+#: obk-admin-parameters.php:46
+msgid "Number of digits to be kept after the decimal separator during rounding"
+msgstr ""
+"Number of digits to be kept after the decimal separator during rounding"
+
+#: obk-admin-parameters.php:47
+msgid "Decimal separator for CSV export"
+msgstr "Decimal separator for CSV export"
+
+#: obk-admin-parameters.php:49
+msgid ""
+"Character to use as a decimal separator for numeric values ​​when exporting "
+"CSV files"
+msgstr ""
+"Character to use as a decimal separator for numeric values ​​when exporting "
+"CSV files"
+
+#: obk-admin-parameters.php:50
+msgid "Time zone"
+msgstr "Time zone"
+
+#: obk-admin-parameters.php:66
+msgid "Time zone to use for database"
+msgstr "Time zone to use for database"
+
+#: obk-admin-parameters.php:68
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: obk-admin-parameters.php:70
+msgid ""
+"This setting allows you, for example, to change the visual appearance of the "
+"elements, such as colors, size and layout of the booking form via your own "
+"CSS rules."
+msgstr ""
+"This setting allows you, for example, to change the visual appearance of the "
+"elements, such as colors, size and layout of the booking form via your own "
+"CSS rules."
+
+#: obk-admin-parameters.php:76
+msgid "Data Import / Export"
+msgstr "Data Import / Export"
+
+#: obk-admin-parameters.php:77 obk-admin-parameters.php:89
+msgid "Export"
+msgstr "Export"
+
+#: obk-admin-parameters.php:87
+msgid "Bookings only"
+msgstr "Bookings only"
+
+#: obk-admin-parameters.php:88
+msgid "All tables (any date)"
+msgstr "All tables (any date)"
+
+#: obk-admin-parameters.php:89
+msgid ""
+"\"All tables\" includes bookings, places, shortcodes, price changes and "
+"parameters."
+msgstr ""
+"\"All tables\" includes bookings, places, shortcodes, price changes and "
+"parameters."
+
+#: obk-admin-parameters.php:95
+msgid "Exported Files"
+msgstr "Exported Files"
+
+#: obk-admin-parameters.php:103 obk-admin-parameters.php:106
+msgid "Import"
+msgstr "Import"
+
+#: obk-admin-parameters.php:107
+msgid ""
+"Always make a backup before importing data. In the import file, the first "
+"field of the first line must be the name of the table : \"bookings\", "
+"\"places\", \"shortcodes\", \"pricechanges\" or \"parameters\". If an id of "
+"data already exists, the data will be replaced. Don't fill id field data in "
+"the file in order to add data in all cases (except for the parameters table)."
+msgstr ""
+"Always make a backup before importing data. In the import file, the first "
+"field of the first line must be the name of the table : \"bookings\", "
+"\"places\", \"shortcodes\", \"pricechanges\" or \"parameters\". If an id of "
+"data already exists, the data will be replaced. Don't fill id field data in "
+"the file in order to add data in all cases (except for the parameters table)."
+
+#: obk-admin-parameters.php:142
+msgid "Bookings created"
+msgstr "Bookings created"
+
+#: obk-admin-parameters.php:143
+msgid "Bookings updated"
+msgstr "Bookings updated"
+
+#: obk-admin-parameters.php:218
+msgid "Places created"
+msgstr "Places created"
+
+#: obk-admin-parameters.php:219
+msgid "Places updated"
+msgstr "Places updated"
+
+#: obk-admin-parameters.php:233
+msgid "Shortcodes created"
+msgstr "Shortcodes created"
+
+#: obk-admin-parameters.php:234
+msgid "Shortcodes updated"
+msgstr "Shortcodes updated"
+
+#: obk-admin-parameters.php:248
+msgid "Price changes created"
+msgstr "Price changes created"
+
+#: obk-admin-parameters.php:249
+msgid "Price changes updated"
+msgstr "Price changes updated"
+
+#: obk-admin-parameters.php:258
+msgid "Parameters updated"
+msgstr "Parameters updated"
+
+#: obk-admin-parameters.php:261
+msgid "Import Error: First field is not a valid table name:"
+msgstr "Import Error: First field is not a valid table name:"
+
+#: obk-admin-parameters.php:264
+msgid "Import Error: Unable to read first line"
+msgstr "Import Error: Unable to read first line"
+
+#: obk-admin-parameters.php:267
+msgid "Import Error: Unable to open file"
+msgstr "Import Error: Unable to open file"
+
+#: obk-admin-parameters.php:271
+msgid "Import Error: File not found"
+msgstr "Import Error: File not found"
+
+#: obk-admin-pricechanges.php:81
+msgid "Details about options"
+msgstr "Details about options"
+
+#: obk-admin-pricechanges.php:94 obk-admin-pricechanges.php:127
+#: obk-admin-pricechanges.php:161 obk-admin-pricechanges.php:195
+msgid "Go to places edition to add items here"
+msgstr "Go to places edition to add items here"
+
+#: obk-admin-shortcodes.php:74
+msgid "Add shortcode"
+msgstr "Add shortcode"
+
+#: obk-admin-shortcodes.php:78
+msgid "Edit shortcode"
+msgstr "Edit shortcode"
+
+#: obk-admin-shortcodes.php:81 obk-admin-shortcodes.php:242
+#: obk-functions.php:892 obk-functions.php:959 obk-wpajax.php:757
+msgid "Name"
+msgstr "Name"
+
+#: obk-admin-shortcodes.php:83
+msgid "The name of the shortcode, only visible for you."
+msgstr "The name of the shortcode, only visible for you."
+
+#: obk-admin-shortcodes.php:86
+msgid "Display mode"
+msgstr "Display mode"
+
+#: obk-admin-shortcodes.php:88 obk-admin-shortcodes.php:250
+msgid "Dropdown list"
+msgstr "Dropdown list"
+
+#: obk-admin-shortcodes.php:89 obk-admin-shortcodes.php:250
+msgid "Full display"
+msgstr "Full display"
+
+#: obk-admin-shortcodes.php:91
+msgid "Choose how the shortcode should display the booking form list."
+msgstr "Choose how the shortcode should display the booking form list."
+
+#: obk-admin-shortcodes.php:101
+msgid "Add a place in the shortcode"
+msgstr "Add a place in the shortcode"
+
+#: obk-admin-shortcodes.php:120
+msgid "The place to display"
+msgstr "The place to display"
+
+#: obk-admin-shortcodes.php:125
+msgid "Position"
+msgstr "Position"
+
+#: obk-admin-shortcodes.php:131
+msgid "Redirection"
+msgstr "Redirection"
+
+#: obk-admin-shortcodes.php:134
+msgid "Pages"
+msgstr "Pages"
+
+#: obk-admin-shortcodes.php:142
+msgid "Post"
+msgstr "Post"
+
+#: obk-admin-shortcodes.php:150
+msgid "Link"
+msgstr "Link"
+
+#: obk-admin-shortcodes.php:153
+msgid "Which page should the user selection redirect to?"
+msgstr "Which page should the user selection redirect to?"
+
+#: obk-admin-shortcodes.php:155 obk-functions.php:918
+msgid "Description"
+msgstr "Description"
+
+#: obk-admin-shortcodes.php:158
+msgid "The description of the place, only visible with the full display mode."
+msgstr "The description of the place, only visible with the full display mode."
+
+#: obk-admin-shortcodes.php:172
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "Are you sure you want to delete this shortcode?"
+
+#: obk-admin-shortcodes.php:182
+msgid ""
+"Note: You will be able to add more places in the shortcode after each saving."
+msgstr ""
+"Note: You will be able to add more places in the shortcode after each saving."
+
+#: obk-admin-shortcodes.php:199
+msgid "Shortcodes for a single place (Booking form)"
+msgstr "Shortcodes for a single place (Booking form)"
+
+#: obk-admin-shortcodes.php:200
+msgid ""
+"Here you can choose a language (optional) for the display of the booking "
+"form. Then, copy the shortcode and paste it where you want (in a post or in "
+"a page) to show the form."
+msgstr ""
+"Here you can choose a language (optional) for the display of the booking "
+"form. Then, copy the shortcode and paste it where you want (in a post or in "
+"a page) to show the form."
+
+#: obk-admin-shortcodes.php:202
+msgid ""
+"To add more languages, please open the pot file in the plugin languages "
+"directory and create a new mo file based on it, with a program like Poedit. "
+"Then share your creation with the community!"
+msgstr ""
+"To add more languages, please open the pot file in the plugin languages "
+"directory and create a new mo file based on it, with a program like Poedit. "
+"Then share your creation with the community!"
+
+#: obk-admin-shortcodes.php:205
+msgid "Add a booking place before editing shortcodes"
+msgstr "Add a booking place before editing shortcodes"
+
+#: obk-admin-shortcodes.php:207 obk-admin-shortcodes.php:242
+#: obk-admin-ui.php:10
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: obk-admin-shortcodes.php:207
+msgid "Languages"
+msgstr "Languages"
+
+#: obk-admin-shortcodes.php:239
+msgid "Shortcodes for a multiple selection of place"
+msgstr "Shortcodes for a multiple selection of place"
+
+#: obk-admin-shortcodes.php:240
+msgid ""
+"If you want to propose a list of available places for your visitors, you can "
+"add a shortcode here and choose the places it will display."
+msgstr ""
+"If you want to propose a list of available places for your visitors, you can "
+"add a shortcode here and choose the places it will display."
+
+#: obk-admin-shortcodes.php:259
+msgid "Add a new shortcode"
+msgstr "Add a new shortcode"
+
+#: obk-admin-space-crud.php:19
+msgid "The place has been added"
+msgstr "The place has been added"
+
+#: obk-admin-space-crud.php:30
+msgid "The place has been updated"
+msgstr "The place has been updated"
+
+#: obk-admin-space-crud.php:86
+msgid "The information to be displayed has been updated"
+msgstr "The information to be displayed has been updated"
+
+#: obk-admin-space-crud.php:92 obk-admin-space-crud.php:95
+msgid "The place has been removed"
+msgstr "The place has been removed"
+
+#: obk-admin-ui.php:11 obk-functions.php:754
+msgid "Price changes"
+msgstr "Price changes"
+
+#: obk-admin-ui.php:12
+msgid "Parameters"
+msgstr "Parameters"
+
+#: obk-admin-ui.php:25 obk-functions-booking-preview-save.php:158
+#: obk-functions-booking-preview-save.php:233
+#: obk-functions-booking-preview-save.php:304
+#: obk-functions-booking-preview-save.php:374 obk-functions-booking.php:100
+#: obk-functions-booking.php:106 obk-functions-booking.php:257
+#: obk-functions-booking.php:296 obk-functions.php:344 obk.php:66
+msgid "hrs"
+msgstr "hrs"
+
+#: obk-admin-ui.php:33 obk-functions.php:55 obk.php:74
+msgid "January"
+msgstr "January"
+
+#: obk-admin-ui.php:34 obk-functions.php:55 obk.php:75
+msgid "February"
+msgstr "February"
+
+#: obk-admin-ui.php:35 obk-functions.php:55 obk.php:76
+msgid "March"
+msgstr "March"
+
+#: obk-admin-ui.php:36 obk-functions.php:55 obk.php:77
+msgid "April"
+msgstr "April"
+
+#: obk-admin-ui.php:37 obk-functions.php:55 obk.php:78
+msgid "May"
+msgstr "May"
+
+#: obk-admin-ui.php:38 obk-functions.php:56 obk.php:79
+msgid "June"
+msgstr "June"
+
+#: obk-admin-ui.php:39 obk-functions.php:56 obk.php:80
+msgid "July"
+msgstr "July"
+
+#: obk-admin-ui.php:40 obk-functions.php:56 obk.php:81
+msgid "August"
+msgstr "August"
+
+#: obk-admin-ui.php:41 obk-functions.php:56 obk.php:82
+msgid "September"
+msgstr "September"
+
+#: obk-admin-ui.php:42 obk-functions.php:56 obk.php:83
+msgid "October"
+msgstr "October"
+
+#: obk-admin-ui.php:43 obk-functions.php:57 obk.php:84
+msgid "November"
+msgstr "November"
+
+#: obk-admin-ui.php:44 obk-functions.php:57 obk.php:85
+msgid "December"
+msgstr "December"
+
+#: obk-admin-ui.php:46
+msgid "Are you sure you want to delete this item?"
+msgstr "Are you sure you want to delete this item?"
+
+#: obk-admin-ui.php:47
+msgid "Please fill in the label"
+msgstr "Please fill in the label"
+
+#: obk-admin-ui.php:48
+msgid "Please fill in the maximum quantity"
+msgstr "Please fill in the maximum quantity"
+
+#: obk-admin-ui.php:49
+#| msgid "Please fill in the label"
+msgid "Please fill in the end date"
+msgstr "Please fill in the end date"
+
+#: obk-admin-ui.php:50
+msgid "free place(s)"
+msgstr "free place(s)"
+
+#: obk-admin-ui.php:62
+msgid "Unsaved changes! Do you want to stay on the page to save them?"
+msgstr "Unsaved changes! Do you want to stay on the page to save them?"
+
+#: obk-admin-ui.php:63
+msgid "Please fill in all fields in position"
+msgstr "Please fill in all fields in position"
+
+#: obk-admin-ui.php:71 obk.php:90
+msgid "Closed"
+msgstr "Closed"
+
+#: obk-admin-ui.php:72 obk.php:91
+msgid "All available"
+msgstr "All available"
+
+#: obk-admin-ui.php:73 obk.php:92
+msgid "Available"
+msgstr "Available"
+
+#: obk-admin-ui.php:74 obk.php:93
+msgid "Unavailable"
+msgstr "Unavailable"
+
+#: obk-admin-ui.php:77 obk.php:96
+msgid "Booking unavailable"
+msgstr "Booking unavailable"
+
+#: obk-admin-ui.php:78 obk.php:97
+msgid "spaces"
+msgstr "spaces"
+
+#: obk-admin-ui.php:79 obk.php:98
+msgid "space"
+msgstr "space"
+
+#: obk-admin-ui.php:80 obk.php:99
+msgid "Opening time"
+msgstr "Opening time"
+
+#: obk-admin-ui.php:81 obk.php:100
+msgid "Allowed arrival time"
+msgstr "Allowed arrival time"
+
+#: obk-admin-ui.php:82 obk.php:101
+msgid "Requested departure time"
+msgstr "Requested departure time"
+
+#: obk-admin-ui.php:135
+msgid "Welcome to the Oui! Booking plugin"
+msgstr "Welcome to the Oui! Booking plugin"
+
+#: obk-admin-ui.php:136
+msgid "To start, follow the green blocks. "
+msgstr "To start, follow the green blocks. "
+
+#: obk-admin-ui.php:137
+msgid ""
+"If you are new to this plugin, it is advisable to consult the documentation "
+"available on the right side of this page or after this message. "
+msgstr ""
+"If you are new to this plugin, it is advisable to consult the documentation "
+"available on the right side of this page or after this message. "
+
+#: obk-admin-ui.php:138
+msgid ""
+"Do not hesitate to consult our YouTube channel to view the different "
+"possibilities of the plugin depending on your activity."
+msgstr ""
+"Do not hesitate to consult our YouTube channel to view the different "
+"possibilities of the plugin depending on your activity."
+
+#: obk-admin-ui.php:153
+msgid "Add booking"
+msgstr "Add booking"
+
+#: obk-admin-ui.php:155 obk-admin-ui.php:165
+msgid "Add place"
+msgstr "Add place"
+
+#: obk-admin-ui.php:156 obk-admin-ui.php:206
+msgid "Manage place"
+msgstr "Manage place"
+
+#: obk-admin-ui.php:166 obk-functions.php:751
+msgid "Location"
+msgstr "Location"
+
+#: obk-admin-ui.php:169
+msgid "Add"
+msgstr "Add"
+
+#: obk-admin-ui.php:170 obk-admin-ui.php:213
+msgid "Cancel"
+msgstr "Cancel"
+
+#: obk-admin-ui.php:180
+msgid ""
+"In \"Location\", enter where the places you want to propose for the "
+"reservation are."
+msgstr ""
+"In \"Location\", enter where the places you want to propose for the "
+"reservation are."
+
+#: obk-admin-ui.php:181
+msgid ""
+"In \"Place\", enter the kind of place you propose. For example: Rooms, "
+"House, Restaurant table..."
+msgstr ""
+"In \"Place\", enter the kind of place you propose. For example: Rooms, "
+"House, Restaurant table..."
+
+#: obk-admin-ui.php:211
+msgid "Manage"
+msgstr "Manage"
+
+#: obk-admin-ui.php:243
+msgid "Min. departure date"
+msgstr "Min. departure date"
+
+#: obk-admin-ui.php:244
+msgid "Max. arrival date"
+msgstr "Max. arrival date"
+
+#: obk-admin-ui.php:246
+msgid "All booking status"
+msgstr "All booking status"
+
+#: obk-admin-ui.php:253
+msgid "Show"
+msgstr "Show"
+
+#: obk-admin-ui.php:261
+msgid "Export in CSV"
+msgstr "Export in CSV"
+
+#: obk-functions-booking-preview-save.php:37
+msgid "Overview of the booking"
+msgstr "Overview of the booking"
+
+#: obk-functions-booking-preview-save.php:40
+msgid "Your contact details"
+msgstr "Your contact details"
+
+#: obk-functions-booking-preview-save.php:65
+#: obk-functions-booking-preview-save.php:72
+msgid "Booking date"
+msgstr "Booking date"
+
+#: obk-functions-booking-preview-save.php:65
+#: obk-functions-booking-preview-save.php:72
+msgid "until"
+msgstr "until"
+
+#: obk-functions-booking-preview-save.php:79
+msgid "Duration of the booking"
+msgstr "Duration of the booking"
+
+#: obk-functions-booking-preview-save.php:81
+#: obk-functions-booking-preview-save.php:146
+msgid "Total without taxes"
+msgstr "Total without taxes"
+
+#: obk-functions-booking-preview-save.php:123
+msgid "place(s)"
+msgstr "place(s)"
+
+#: obk-functions-booking-preview-save.php:131
+#: obk-functions-booking-preview-save.php:211 obk-functions.php:734
+msgid "Unit price"
+msgstr "Unit price"
+
+#: obk-functions-booking-preview-save.php:138
+#: obk-functions-booking-preview-save.php:218
+#: obk-functions-booking-preview-save.php:301
+#: obk-functions-booking-preview-save.php:304
+#: obk-functions-booking-preview-save.php:371
+#: obk-functions-booking-preview-save.php:374
+msgid "for"
+msgstr "for"
+
+#: obk-functions-booking-preview-save.php:143 obk-functions-booking.php:275
+#: obk-functions-booking.php:315 obk-wpajax.php:509
+msgid "Your choice"
+msgstr "Your choice"
+
+#: obk-functions-booking-preview-save.php:176
+msgid "Total with options (without taxes)"
+msgstr "Total with options (without taxes)"
+
+#: obk-functions-booking-preview-save.php:250
+msgid "Total with taxes"
+msgstr "Total with taxes"
+
+#: obk-functions-booking-preview-save.php:307
+msgid "Total with taxes and discount"
+msgstr "Total with taxes and discount"
+
+#: obk-functions-booking-preview-save.php:326
+msgid "Discount"
+msgstr "Discount"
+
+#: obk-functions-booking-preview-save.php:377
+msgid "Total with taxes and coupon"
+msgstr "Total with taxes and coupon"
+
+#: obk-functions-booking-preview-save.php:395
+msgid "Coupon"
+msgstr "Coupon"
+
+#: obk-functions-booking-preview-save.php:410
+msgid "Deposit requested"
+msgstr "Deposit requested"
+
+#: obk-functions-booking-preview-save.php:419
+msgid "Remaining amount to be paid on arrival"
+msgstr "Remaining amount to be paid on arrival"
+
+#: obk-functions-booking-preview-save.php:443
+msgid "Edit my entry"
+msgstr "Edit my entry"
+
+#: obk-functions-booking-preview-save.php:453
+msgid "Confirm the booking"
+msgstr "Confirm the booking"
+
+#: obk-functions-booking.php:28 obk.php:56
+msgid "This arrival time is not allowed"
+msgstr "This arrival time is not allowed"
+
+#: obk-functions-booking.php:39 obk.php:58
+msgid "This departure time is not allowed"
+msgstr "This departure time is not allowed"
+
+#: obk-functions-booking.php:52 obk-functions-booking.php:73 obk.php:60
+msgid "Booking only possible from"
+msgstr "Booking only possible from"
+
+#: obk-functions-booking.php:57 obk-functions-booking.php:78 obk.php:61
+msgid "Booking only possible until"
+msgstr "Booking only possible until"
+
+#: obk-functions-booking.php:63 obk-functions-booking.php:65
+#: obk-functions-booking.php:84 obk-functions-booking.php:86 obk.php:62
+msgid "Booking not possible before today."
+msgstr "Booking not possible before today."
+
+#: obk-functions-booking.php:100 obk.php:63
+msgid "Duration of the booking insufficient. Minimum duration"
+msgstr "Duration of the booking insufficient. Minimum duration"
+
+#: obk-functions-booking.php:106
+msgid "Duration of the reservation is too long. Maximum duration"
+msgstr "Duration of the reservation is too long. Maximum duration"
+
+#: obk-functions-booking.php:112 obk.php:88
+msgid "The arrival date is after the departure date"
+msgstr "The arrival date is after the departure date"
+
+#: obk-functions-booking.php:125 obk-functions-booking.php:135
+msgid "Booking is not possible on the whole day of"
+msgstr "Booking is not possible on the whole day of"
+
+#: obk-functions-booking.php:143 obk.php:86
+msgid "Arrival is not possible on"
+msgstr "Arrival is not possible on"
+
+#: obk-functions-booking.php:151 obk.php:87
+msgid "Departure is not possible on"
+msgstr "Departure is not possible on"
+
+#: obk-functions-booking.php:165
+msgid ""
+"We are sorry, there are not enough places available for the requested period."
+msgstr ""
+"We are sorry, there are not enough places available for the requested period."
+
+#: obk-functions-booking.php:194
+msgid "We are sorry, this discount is no longer available."
+msgstr "We are sorry, this discount is no longer available."
+
+#: obk-functions-booking.php:206
+msgid "We are sorry, this coupon is no longer available."
+msgstr "We are sorry, this coupon is no longer available."
+
+#: obk-functions-booking.php:214
+msgid "Discount code is unknown"
+msgstr "Discount code is unknown"
+
+#: obk-functions-booking.php:219
+msgid "Coupon code is unknown"
+msgstr "Coupon code is unknown"
+
+#: obk-functions-booking.php:238
+msgid "Options added"
+msgstr "Options added"
+
+#: obk-functions-booking.php:239
+msgid "Taxes applied"
+msgstr "Taxes applied"
+
+#: obk-functions-booking.php:240
+msgid "Coupons used"
+msgstr "Coupons used"
+
+#: obk-functions-booking.php:241
+msgid "Discounts used"
+msgstr "Discounts used"
+
+#: obk-functions-booking.php:241
+msgid "Add the discount"
+msgstr "Add the discount"
+
+#: obk-functions-booking.php:283
+msgid "Select space first"
+msgstr "Select space first"
+
+#: obk-functions.php:342
+msgid "hr"
+msgstr "hr"
+
+#: obk-functions.php:351
+msgid "day"
+msgstr "day"
+
+#: obk-functions.php:353
+msgid "days"
+msgstr "days"
+
+#: obk-functions.php:359
+msgid "week"
+msgstr "week"
+
+#: obk-functions.php:361
+msgid "weeks"
+msgstr "weeks"
+
+#: obk-functions.php:368
+msgid "and"
+msgstr "and"
+
+#: obk-functions.php:370
+msgid "min"
+msgstr "min"
+
+#: obk-functions.php:375
+msgid "hours"
+msgstr "hours"
+
+#: obk-functions.php:730 obk-functions.php:776 obk-functions.php:891
+#: obk-functions.php:916 obk-functions.php:958
+msgid "Id"
+msgstr "Id"
+
+#: obk-functions.php:732
+msgid "Date"
+msgstr "Date"
+
+#: obk-functions.php:750
+msgid "Id place"
+msgstr "Id place"
+
+#: obk-functions.php:755
+msgid "Price according to periods"
+msgstr "Price according to periods"
+
+#: obk-functions.php:756
+msgid "Price according to days"
+msgstr "Price according to days"
+
+#: obk-functions.php:777
+msgid "Id location"
+msgstr "Id location"
+
+#: obk-functions.php:778
+msgid "Location name"
+msgstr "Location name"
+
+#: obk-functions.php:779
+msgid "Place label"
+msgstr "Place label"
+
+#: obk-functions.php:799
+msgid "Form: Booking start time"
+msgstr "Form: Booking start time"
+
+#: obk-functions.php:800
+msgid "Form: Booking end time"
+msgstr "Form: Booking end time"
+
+#: obk-functions.php:801
+msgid "Form: Number of people"
+msgstr "Form: Number of people"
+
+#: obk-functions.php:802
+msgid "Form: Last name"
+msgstr "Form: Last name"
+
+#: obk-functions.php:803
+msgid "Form: First name"
+msgstr "Form: First name"
+
+#: obk-functions.php:804
+msgid "Form: Address"
+msgstr "Form: Address"
+
+#: obk-functions.php:805
+msgid "Form: Zip code"
+msgstr "Form: Zip code"
+
+#: obk-functions.php:806
+msgid "Form: City"
+msgstr "Form: City"
+
+#: obk-functions.php:807
+msgid "Form: Country"
+msgstr "Form: Country"
+
+#: obk-functions.php:808
+msgid "Form: Email"
+msgstr "Form: Email"
+
+#: obk-functions.php:809
+msgid "Form: Tel."
+msgstr "Form: Tel."
+
+#: obk-functions.php:810
+msgid "Form: Notes"
+msgstr "Form: Notes"
+
+#: obk-functions.php:811
+msgid "Form: Number of places"
+msgstr "Form: Number of places"
+
+#: obk-functions.php:812
+msgid "Display: Start date of availability"
+msgstr "Display: Start date of availability"
+
+#: obk-functions.php:813
+msgid "Display: End date of availability"
+msgstr "Display: End date of availability"
+
+#: obk-functions.php:814
+msgid "Display: Price of the place"
+msgstr "Display: Price of the place"
+
+#: obk-functions.php:815
+msgid "Display: Deposit (Price)"
+msgstr "Display: Deposit (Price)"
+
+#: obk-functions.php:816
+msgid "Display: Deposit (Percentage)"
+msgstr "Display: Deposit (Percentage)"
+
+#: obk-functions.php:817
+msgid "Display: Time unit"
+msgstr "Display: Time unit"
+
+#: obk-functions.php:818
+msgid "Display: Min. booking duration"
+msgstr "Display: Min. booking duration"
+
+#: obk-functions.php:819
+msgid "Display: Max. booking duration"
+msgstr "Display: Max. booking duration"
+
+#: obk-functions.php:820
+msgid "Display: Description / Details"
+msgstr "Display: Description / Details"
+
+#: obk-functions.php:821
+msgid "Display: Calendar"
+msgstr "Display: Calendar"
+
+#: obk-functions.php:822
+msgid "Opening Times"
+msgstr "Opening Times"
+
+#: obk-functions.php:824
+msgid "Price changes Ids"
+msgstr "Price changes Ids"
+
+#: obk-functions.php:894
+msgid "Places"
+msgstr "Places"
+
+#: obk-functions.php:921
+msgid "Quantity / Max. quantity"
+msgstr "Quantity / Max. quantity"
+
+#: obk-functions.php:922
+msgid "Initial quantity"
+msgstr "Initial quantity"
+
+#: obk-functions.php:926
+msgid "Code / Automatic Quantity"
+msgstr "Code / Automatic Quantity"
+
+#: obk-functions.php:927
+msgid "Type"
+msgstr "Type"
+
+#: obk-functions.php:960
+msgid "Value"
+msgstr "Value"
+
+#: obk-shortcode.php:28 obk-shortcode.php:108
+msgid "\"id\" attribute missing when calling shortcode"
+msgstr "\"id\" attribute missing when calling shortcode"
+
+#: obk-shortcode.php:35
+msgid "Select location"
+msgstr "Select location"
+
+#: obk-shortcode.php:71
+msgid "More details"
+msgstr "More details"
+
+#: obk-shortcode.php:83
+msgid "We are sorry, this list of locations is no longer available."
+msgstr "We are sorry, this list of locations is no longer available."
+
+#: obk-shortcode.php:140
+msgid "This page require Javascript to be enabled."
+msgstr "This page require Javascript to be enabled."
+
+#: obk-shortcode.php:215
+msgid "Special prices"
+msgstr "Special prices"
+
+#: obk-shortcode.php:225
+msgid "Special periods"
+msgstr "Special periods"
+
+#: obk-shortcode.php:259
+msgid "Availability calendar"
+msgstr "Availability calendar"
+
+#: obk-shortcode.php:284 obk-shortcode.php:456
+msgid "Book"
+msgstr "Book"
+
+#: obk-shortcode.php:304
+msgid "indicates required fields"
+msgstr "indicates required fields"
+
+#: obk-shortcode.php:316 obk-shortcode.php:317
+msgid "Please select the arrival date first"
+msgstr "Please select the arrival date first"
+
+#: obk-shortcode.php:321
+msgid "Duration"
+msgstr "Duration"
+
+#: obk-shortcode.php:335 obk-shortcode.php:336
+msgid "Please select the departure date first"
+msgstr "Please select the departure date first"
+
+#: obk-shortcode.php:352
+#| msgid "Please select the arrival date first"
+msgid "Please select your arrival date to see the options available"
+msgstr "Please select your arrival date to see the options available"
+
+#: obk-shortcode.php:455
+msgid "Accept the Terms"
+msgstr "Accept the Terms"
+
+#: obk-shortcode.php:460
+msgid "We are sorry, this location is no longer available."
+msgstr "We are sorry, this location is no longer available."
+
+#: obk-wpajax.php:121 obk-wpajax.php:221
+msgid "Please fill in the dates for the period"
+msgstr "Please fill in the dates for the period"
+
+#: obk-wpajax.php:123 obk-wpajax.php:223
+msgid "Start date is after finish date"
+msgstr "Start date is after finish date"
+
+#: obk-wpajax.php:136 obk-wpajax.php:139 obk-wpajax.php:142 obk-wpajax.php:236
+#: obk-wpajax.php:239 obk-wpajax.php:242
+msgid "Error, this period is in conflict with another period"
+msgstr "Error, this period is in conflict with another period"
+
+#: obk-wpajax.php:458
+msgid "coupon"
+msgstr "coupon"
+
+#: obk-wpajax.php:458
+msgid "discount"
+msgstr "discount"
+
+#: obk-wpajax.php:458
+msgid "tax"
+msgstr "tax"
+
+#: obk-wpajax.php:761
+msgid "Qty"
+msgstr "Qty"
+
+#: obk-wpajax.php:761
+msgid "People"
+msgstr "People"
+
+#: obk-wpajax.php:761
+msgid "Ph."
+msgstr "Ph."
+
+#: obk-wpajax.php:776
+msgid "Mrs/Mr."
+msgstr "Mrs/Mr."
+
+#: obk-wpajax.php:820
+msgid "Booking confirmation"
+msgstr "Booking confirmation"
+
+#: obk-wpajax.php:827
+msgid "New booking"
+msgstr "New booking"
+
+#: obk-wpajax.php:829
+msgid "Booking has been saved"
+msgstr "Booking has been saved"
+
+#: obk.php:57
+msgid "Thank you for planning your arrival before"
+msgstr "Thank you for planning your arrival before"
+
+#: obk.php:59
+msgid "Thank you for planning your departure before"
+msgstr "Thank you for planning your departure before"
+
+#: obk.php:64
+msgid "Duration of the booking too long. Maximum duration"
+msgstr "Duration of the booking too long. Maximum duration"
+
+#: obk.php:65
+msgid "Booking is not possible from"
+msgstr "Booking is not possible from"
+
+#. Plugin Name of the plugin/theme
+msgid "Oui! Booking"
+msgstr "Oui! Booking"
+
+#. Plugin URI of the plugin/theme
+msgid "https://oui-booking.com"
+msgstr "https://oui-booking.com"
+
+#. Description of the plugin/theme
+msgid ""
+"EN/FR/... Manage your bookings with this plugin that easily adapts to "
+"hotels, restaurants, camping, gites, trips, events, shows ..."
+msgstr ""
+"EN/FR/... Manage your bookings with this plugin that easily adapts to "
+"hotels, restaurants, camping, gites, trips, events, shows ..."
+
+#. Author of the plugin/theme
+msgid "Onliste.com"
+msgstr "Onliste.com"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/onliste"
+msgstr "https://profiles.wordpress.org/onliste"
+
+#~ msgid "Min. delay before booking (in hours)"
+#~ msgstr "Min. delay before booking (in hours)"
+
+#~ msgid ""
+#~ "For example, put \"2\" if you need 2hrs to clean the place before the "
+#~ "next tenants, or put \"48\" if you need 48hrs to organize the reception "
+#~ "of the new arrivals. Leave to zero if there is no delay between the "
+#~ "bookings."
+#~ msgstr ""
+#~ "For example, put \"2\" if you need 2hrs to clean the place before the "
+#~ "next tenants, or put \"48\" if you need 48hrs to organize the reception "
+#~ "of the new arrivals. Leave to zero if there is no delay between the "
+#~ "bookings."
+
+#~ msgid "Colors updated"
+#~ msgstr "Colors updated"
+
+#~ msgid "Hour"
+#~ msgstr "Hour"
+
+#~ msgid "Edit place"
+#~ msgstr "Edit place"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~| msgid "List of all coupons"
+#~ msgid "List of bookings"
+#~ msgstr "List of bookings"
+
+#~ msgid "Arrival requested"
+#~ msgstr "Arrival requested"
+
+#~ msgid "Departure requested"
+#~ msgstr "Departure requested"
+
+#~ msgid "Hover over a date to see the number of free places"
+#~ msgstr "Hover over a date to see the number of free places"
+
+#~ msgid "Expected arrival between"
+#~ msgstr "Expected arrival between"
+
+#~ msgid "Departure requested between"
+#~ msgstr "Departure requested between"
+
+#~ msgid "Roll over a date to see the number of free places"
+#~ msgstr "Roll over a date to see the number of free places"
+
+#~ msgid "Arrival days"
+#~ msgstr "Arrival days"
+
+#~ msgid "Departure days"
+#~ msgstr "Departure days"
+
+#~ msgid "Arrival start time"
+#~ msgstr "Arrival start time"
+
+#~ msgid "Arrival end time"
+#~ msgstr "Arrival end time"
+
+#~ msgid "Departure start time"
+#~ msgstr "Departure start time"
+
+#~ msgid "Departure end time"
+#~ msgstr "Departure end time"
+
+#~ msgid ""
+#~ "For example, if you do not accept bookings on Sunday, uncheck \"Sunday\"."
+#~ msgstr ""
+#~ "For example, if you do not accept bookings on Sunday, uncheck \"Sunday\"."
+
+#~ msgid "Reference time for the start of the booking"
+#~ msgstr "Reference time for the start of the booking"
+
+#~ msgid "From what time can newcomers arrive?"
+#~ msgstr "From what time can newcomers arrive?"
+
+#~ msgid "From what time do you no longer accept arrivals?"
+#~ msgstr "From what time do you no longer accept arrivals?"
+
+#~ msgid "Reference time for the end of the booking"
+#~ msgstr "Reference time for the end of the booking"
+
+#~ msgid "From what time can tenants leave the premises?"
+#~ msgstr "From what time can tenants leave the premises?"
+
+#~ msgid "From what time do tenants have to leave?"
+#~ msgstr "From what time do tenants have to leave?"
+
+#~ msgid "Colors"
+#~ msgstr "Colors"
+
+#~ msgid "Background form"
+#~ msgstr "Background form"
+
+#~ msgid "Main texts"
+#~ msgstr "Main texts"
+
+#~ msgid "Titles"
+#~ msgstr "Titles"
+
+#~ msgid "Fields background"
+#~ msgstr "Fields background"
+
+#~ msgid "Fields text"
+#~ msgstr "Fields text"
+
+#~ msgid "Calendar header background"
+#~ msgstr "Calendar header background"
+
+#~ msgid "Calendar header text"
+#~ msgstr "Calendar header text"
+
+#~ msgid "Calendar level 1 background"
+#~ msgstr "Calendar level 1 background"
+
+#~ msgid "Calendar level 1 text"
+#~ msgstr "Calendar level 1 text"
+
+#~ msgid "Calendar level 2 background"
+#~ msgstr "Calendar level 2 background"
+
+#~ msgid "Calendar level 2 text"
+#~ msgstr "Calendar level 2 text"
+
+#~ msgid "Calendar level 3 background"
+#~ msgstr "Calendar level 3 background"
+
+#~ msgid "Calendar level 3 text"
+#~ msgstr "Calendar level 3 text"
+
+#~ msgid "Submit button background"
+#~ msgstr "Submit button background"
+
+#~ msgid "Submit button text"
+#~ msgstr "Submit button text"
+
+#~ msgid "Preview title background"
+#~ msgstr "Preview title background"
+
+#~ msgid "Preview title text"
+#~ msgstr "Preview title text"
+
+#~ msgid "Preview content background"
+#~ msgstr "Preview content background"
+
+#~ msgid "Preview content text"
+#~ msgstr "Preview content text"
+
+#~ msgid "Preview level 1 background"
+#~ msgstr "Preview level 1 background"
+
+#~ msgid "Preview level 1 text"
+#~ msgstr "Preview level 1 text"
+
+#~ msgid "Preview level 2 background"
+#~ msgstr "Preview level 2 background"
+
+#~ msgid "Preview level 2 text"
+#~ msgstr "Preview level 2 text"
+
+#~ msgid "Preview level 3 background"
+#~ msgstr "Preview level 3 background"
+
+#~ msgid "Preview level 3 text"
+#~ msgstr "Preview level 3 text"
+
+#~ msgid "Preview total background"
+#~ msgstr "Preview total background"
+
+#~ msgid "Preview total text"
+#~ msgstr "Preview total text"
+
+#~ msgid "Calendar days header background"
+#~ msgstr "Calendar days header background"
+
+#~ msgid "Calendar days header text"
+#~ msgstr "Calendar days header text"
+
+#~ msgid "Calendar content background"
+#~ msgstr "Calendar content background"
+
+#~ msgid "Calendar content text"
+#~ msgstr "Calendar content text"
+
+#~ msgid "Calendar empty cells background"
+#~ msgstr "Calendar empty cells background"
+
+#~ msgid "Calendar border"
+#~ msgstr "Calendar border"
+
+#~ msgid "Thank you for planning your arrival from"
+#~ msgstr "Thank you for planning your arrival from"
+
+#~ msgid "Thank you for planning your departure from"
+#~ msgstr "Thank you for planning your departure from"
+
+#~ msgid ""
+#~ "Arrival start time is the reference time for the start of the booking "
+#~ msgstr ""
+#~ "Arrival start time is the reference time for the start of the booking "
+
+#~ msgid "Arrival end time is the reference time for the start of the booking "
+#~ msgstr ""
+#~ "Arrival end time is the reference time for the start of the booking "
+
+#~ msgid ""
+#~ "Departure start time is the reference time for the end of the booking "
+#~ msgstr ""
+#~ "Departure start time is the reference time for the end of the booking "
+
+#~ msgid "Departure end time is the reference time for the end of the booking "
+#~ msgstr ""
+#~ "Departure end time is the reference time for the end of the booking "
+
+#~ msgid "Days available for arrival"
+#~ msgstr "Days available for arrival"
+
+#~ msgid "Days available for departure"
+#~ msgstr "Days available for departure"
+
+#~ msgid "Display: Days available"
+#~ msgstr "Display: Days available"
+
+#~ msgid "Display: Arrival start time"
+#~ msgstr "Display: Arrival start time"
+
+#~ msgid "Display: Arrival end time"
+#~ msgstr "Display: Arrival end time"
+
+#~ msgid "Display: Departure start time"
+#~ msgstr "Display: Departure start time"
+
+#~ msgid "Display: Departure end time"
+#~ msgstr "Display: Departure end time"
+
+#~ msgid "Display: Days available for arrival"
+#~ msgstr "Display: Days available for arrival"
+
+#~ msgid "Display: Days available for departure"
+#~ msgstr "Display: Days available for departure"
+
+#~ msgid "Expected arrival after"
+#~ msgstr "Expected arrival after"
+
+#~ msgid "Expected arrival before"
+#~ msgstr "Expected arrival before"
+
+#~ msgid "Departure required from"
+#~ msgstr "Departure required from"
+
+#~ msgid "Departure requested before"
+#~ msgstr "Departure requested before"
+
+#~ msgid "Avail."
+#~ msgstr "Avail."
+
+#~ msgid "Last."
+#~ msgstr "Last."
+
+#~ msgid "Booked"
+#~ msgstr "Booked"
+
+#~ msgid "Remarks"
+#~ msgstr "Remarks"
+
+#~ msgid "From what date is it possible to book?"
+#~ msgstr "From what date is it possible to book?"
+
+#~| msgid "Periodicity"
+#~ msgid "Periods list"
+#~ msgstr "Periods list"
+
+#~| msgid "Add space"
+#~ msgid "Id space"
+#~ msgstr "Id space"
+
+#~| msgid "Remarks"
+#~ msgid "Form: Remarks"
+#~ msgstr "Form: Remarks"
+
+#~ msgid "Persons"
+#~ msgstr "Persons"
+
+#~ msgid "Do not receive notification by email"
+#~ msgstr "Do not receive notification by email"
+
+#~ msgid "Don't forget to save changes"
+#~ msgstr "Don't forget to save changes"
+
+#~ msgid "Taken spaces"
+#~ msgstr "Taken spaces"
+
+#~ msgid "Save the booking"
+#~ msgstr "Save the booking"
+
+#~ msgid "Between"
+#~ msgstr "Between"
+
+#~ msgid "Code to enter to benefit from the option."
+#~ msgstr "Code to enter to benefit from the option."
+
+#~ msgid "Total payments"
+#~ msgstr "Total payments"
+
+#~ msgid "Enable PayPal payment"
+#~ msgstr "Enable PayPal payment"
+
+#~ msgid "Click \"Yes\" to enable PayPal payment for your customers"
+#~ msgstr "Click \"Yes\" to enable PayPal payment for your customers"
+
+#~ msgid "Account email"
+#~ msgstr "Account email"
+
+#~ msgid "Email of your PayPal account"
+#~ msgstr "Email of your PayPal account"
+
+#~ msgid "Custom PayPal Form"
+#~ msgstr "Custom PayPal Form"
+
+#~ msgid ""
+#~ "If you have your own PayPal form, copy/paste it here. You can use the "
+#~ "following tags to replace the default value: @email, @currency, "
+#~ "@itemName, @amount."
+#~ msgstr ""
+#~ "If you have your own PayPal form, copy/paste it here. You can use the "
+#~ "following tags to replace the default value: @email, @currency, "
+#~ "@itemName, @amount."
+
+#~ msgid "Validate and pay"
+#~ msgstr "Validate and pay"
+
+#~ msgid "Payments made"
+#~ msgstr "Payments made"
+
+#~ msgid "Add payment"
+#~ msgstr "Add payment"
+
+#~ msgid "Information (Title)"
+#~ msgstr "Information (Title)"
+
+#~ msgid "Book (Title)"
+#~ msgstr "Book (Title)"
+
+#~ msgid "Book (button)"
+#~ msgstr "Book (button)"
+
+#~ msgid "Change plugin language to"
+#~ msgstr "Change plugin language to"
+
+#~ msgid ""
+#~ "You can create your own translation files from the two templates "
+#~ "provided. Do not modify the existing files, you will lose your "
+#~ "modifications during updates. Simply create a file in \".txt\" format. "
+#~ "The first line of each translation must be kept as in the model, the "
+#~ "second line is free. You can create these files in the directory"
+#~ msgstr ""
+#~ "You can create your own translation files from the two templates "
+#~ "provided. Do not modify the existing files, you will lose your "
+#~ "modifications during updates. Simply create a file in \".txt\" format. "
+#~ "The first line of each translation must be kept as in the model, the "
+#~ "second line is free. You can create these files in the directory"

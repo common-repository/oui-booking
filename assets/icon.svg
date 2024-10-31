@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="E:\Downloads\iconfinder-icon (3).png"
+   inkscape:export-xdpi="11.876288"
+   inkscape:export-ydpi="11.876288"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="-18.047754"
+     inkscape:cy="26.476852"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g16" />
+  <g
+     id="g5">
+    <title
+       id="title2">background</title>
+    <rect
+       fill="none"
+       id="canvas_background"
+       height="402"
+       width="582"
+       y="-1"
+       x="-1" />
+  </g>
+  <g
+     id="g16">
+    <title
+       id="title7">Layer 1</title>
+    <circle
+       id="svg_1"
+       r="32"
+       cy="32"
+       cx="32"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       fill="#77B3D4" />
+    <path
+       id="svg_3"
+       d="m43,51c0,0 -10.172,2 -18.917,2s-13.167,-7.083 -13.167,-7.083l41.917,0c0,0 -1.666,4.083 -9.833,5.083z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       fill="#231F20"
+       opacity="0.2" />
+    <path
+       id="svg_4"
+       d="m24.083,53.5c-8.919,0 -13.403,-7.02 -13.59,-7.319c-0.097,-0.154 -0.102,-0.348 -0.014,-0.507c0.088,-0.159 0.256,-0.257 0.438,-0.257l41.916,0c0.167,0 0.322,0.083 0.415,0.221s0.11,0.313 0.048,0.468c-0.072,0.178 -1.873,4.367 -10.235,5.391c-0.067,0.014 -10.286,2.003 -18.978,2.003zm-12.181,-7.083c1.422,1.787 5.533,6.083 12.181,6.083c8.596,0 18.72,-1.971 18.82,-1.991c5.716,-0.701 8.14,-2.944 9.026,-4.093l-40.027,0l0,0.001z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       stroke="#77b3d4"
+       fill="#231F20"
+       opacity="0.2" />
+    <path
+       id="svg_5"
+       d="m28.085,11.507c-0.203,-0.037 -0.405,0.057 -0.512,0.232c-0.106,0.175 -0.096,0.397 0.026,0.561c6.731,8.975 3.678,21.564 1.9,26.919l0,-21.219c0,-0.25 -0.185,-0.461 -0.433,-0.496c-0.244,-0.028 -0.482,0.121 -0.549,0.361c-0.057,0.204 -5.784,20.434 -14.689,23.664c-0.228,0.083 -0.363,0.318 -0.321,0.557c0.043,0.24 0.25,0.414 0.493,0.414l15,0l20,0c0.276,0 0.5,-0.224 0.5,-0.5c0,-26.496 -21.201,-30.456 -21.415,-30.493z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       fill="#231F20"
+       opacity="0.2" />
+    <path
+       id="svg_6"
+       stroke-miterlimit="10"
+       d="m43.091323,49c0,0 -10.172,2 -18.917,2s-13.167,-7.083 -13.167,-7.083l41.917,0c0,0 -1.666,4.083 -9.833,5.083z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       stroke-linejoin="round"
+       stroke="#606d82"
+       fill="#606d82" />
+    <path
+       id="svg_7"
+       stroke-miterlimit="10"
+       d="m29,16c0,0 -5.75,20.644 -15,24l15,0l0,-24z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       stroke-linejoin="round"
+       stroke="#F5CF87"
+       fill="#F5CF87" />
+    <path
+       id="svg_8"
+       stroke-miterlimit="10"
+       d="m29,40c0,0 8,-18 -1,-30c0,0 21,3.619 21,30l-20,0z"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75"
+       stroke-linejoin="round"
+       stroke="#C75C5C"
+       fill="#C75C5C" />
+  </g>
+</svg>

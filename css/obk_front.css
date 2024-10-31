@@ -1,0 +1,545 @@
+#obk_mainDiv{
+	padding: 10px;
+	position: relative;
+}
+
+#obk_mainDiv #obk_form_front{
+	margin-top: 15px;
+}
+
+#obk_mainDiv td, #obk_mainDiv table, #obk_mainDiv th{
+	border-width: 0px;
+}
+#obk_mainDiv form{
+	-webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1;
+}
+
+#obk_mainDiv #obk_form_heure_fin,
+#obk_mainDiv #obk_form_heure_debut{
+	display: none;
+}
+
+#obk_mainDiv .obk_norotate_arrow_calendar{
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+}
+
+#obk_mainDiv .obk_rotate_arrow_calendar{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+	position: relative;
+    top: -6px;
+	cursor: pointer;
+}
+
+#obk_mainDiv .obk_selectMonth{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#obk_mainDiv .obk_arrowSelectMonth{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+}
+
+#obk_mainDiv .obk_calendarMonth{
+	text-align: center;
+	vertical-align: top;
+}
+
+#obk_mainDiv #obk_navBar img.emoji{
+	width: 26px!important;
+	height: 26px!important;
+}
+
+#obk_mainDiv #obk_navBar select,
+#obk_mainDiv #obk_navBar input{
+	height: auto;
+	border: 0px solid grey!important;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+#obk_mainDiv #obk_navBar input[type="button"]{
+	padding: 5px 20px;
+}
+
+#obk_mainDiv .obk_errorMsg{
+	color: red;
+}
+
+#obk_mainDiv .obk_required{
+	color: red;
+}
+
+#obk_mainDiv #obk_navBar select[name="month"]{
+	margin-right: 10px;
+	color: #7f7f92;
+}
+
+#obk_mainDiv #obk_navBar input[name="year"]{
+	width: auto;
+}
+
+#obk_mainDiv #obk_navBar .obk_masked{
+	display: none;
+}
+
+#obk_mainDiv .obk_calendrier th{
+	text-align: center;
+}
+
+#obk_mainDiv #obk_calendar, 
+#obk_mainDiv #obk_navBar{
+	max-width: 750px;
+	text-align: center;
+}
+#obk_mainDiv .obk_bookable{
+	cursor: pointer;
+}
+
+#obk_mainDiv .obk_inline{
+	display:inline-block;
+}
+#obk_mainDiv .obk_total{
+	padding: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	background-color: #e0e0e0!important;
+}
+#obk_mainDiv .obk_total2{
+	padding: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	background-color: #cbcbcb!important;
+}
+#obk_mainDiv .obk_total_reservation .obk_previewRow{
+	margin-bottom: 0px;
+	background-color: #c12a2a;
+	color: white;
+	font-weight: bold;
+}
+
+#obk_mainDiv .obk_payBookingBtn{
+	float: right;
+}
+
+#obk_mainDiv .obk_previewRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+#obk_mainDiv .obk_previewBox{
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+}
+#obk_mainDiv .obk_previewRow div:nth-child(2){
+	text-align: right;
+}
+#obk_mainDiv .obk_previewHead{
+	background-color: #c12a2a;
+	color: white;
+	padding: 5px;
+}
+#obk_mainDiv .obk_previewContent{
+	padding: 10px;
+	background-color: #f7f7f7;
+}
+#obk_mainDiv .obk_previewResume{
+	padding: 5px;
+	font-weight: bold;
+}
+
+#obk_mainDiv .obk_previewResume input{
+	text-align: right;
+}
+
+#obk_mainDiv .obk_previewResume input[type="time"]{
+	text-align: left;
+}
+
+#obk_mainDiv .obk_bookingPayment{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#obk_mainDiv #obk_information_front input{
+	margin: 0;
+	padding: 0;
+}
+
+#obk_mainDiv #obk_form_front select,
+#obk_mainDiv #obk_form_front textarea,
+#obk_mainDiv #obk_form_front input{
+	max-width: 350px;
+	margin-bottom: 10px;
+}
+
+#obk_mainDiv #obk_form_front select[disabled]{
+	background-color: whitesmoke!important;
+}
+
+#obk_mainDiv #obk_information_front .obk_formRow,
+#obk_mainDiv #obk_form_front .obk_formRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#obk_mainDiv #obk_information_front .obk_formRow  > div:nth-child(2),
+#obk_mainDiv #obk_form_front .obk_formRow > div:nth-child(2){
+	width: 50%;
+}
+
+#obk_mainDiv #obk_information_front .obk_formRow > div:first-child,
+#obk_mainDiv #obk_form_front .obk_formRow > div:first-child{
+	font-weight: bold;
+	margin-right: 10px;
+	width: 50%;
+	max-width: 300px;
+}
+
+#obk_mainDiv .obk_previewBox input[disabled], 
+#obk_mainDiv #obk_information_front input[disabled]{
+	background-color: transparent!important;
+    border: none!important;
+    width: 100%!important;
+}
+
+#obk_mainDiv .obk_weekHeader{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#obk_mainDiv .obk_w12{
+	width: 12%;
+}
+
+#obk_mainDiv .obk_calendarLabelDay{
+	font-size:10px;
+}
+
+#obk_mainDiv .obk_calendarDateDay{
+	font-size:20px;
+}
+
+#obk_mainDiv .obkCalendarContent{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	position:relative;
+}
+
+#obk_mainDiv .obk_calendarTimes{
+	font-size:10px;
+	position:relative;
+	top:-8.5px;
+}
+
+#obk_mainDiv .obk_calendarTimes:last-child{
+	height: 0px!important;
+}
+
+#obk_mainDiv .obk_calendarAllDay{
+	z-index:1;
+	position:relative;
+}
+
+#obk_mainDiv .obk_calendarFullZero{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#obk_mainDiv .obk_calendarOnePeriod{
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#obk_mainDiv .obk_calendarGrid{
+	position:absolute;
+	top:0;
+	left:12%;
+	width:88%;
+}
+
+#obk_mainDiv .obk_calendarBookingUnavailable{
+	font-size:14px;
+	color:red;
+}
+
+#obk_mainDiv .obk_calendarGridRow{
+	border-top:1px solid #f4f4f4;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#obk_mainDiv .obk_CalendarLegend{
+	font-size:12px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	color:white;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	margin:10px;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#obk_mainDiv .obk_CalendarLegend div{
+	padding: 2px;
+	margin: 2px;
+}
+
+#obk_mainDiv .obk_calendarRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	padding: 10px 5px;
+	background-color: white;
+}
+
+#obk_mainDiv .obk_calendarClosed{background-color: #cccccc;}
+#obk_mainDiv .obk_calendarAllAvailable{background-color: #3b88c3;}
+#obk_mainDiv .obk_calendarAvailable{background-color: #e07423;}
+#obk_mainDiv .obk_calendarUnavailable{background-color: #f70000;}
+#obk_mainDiv .obk_calendarArrival{background-color: green;}
+#obk_mainDiv .obk_calendarDeparture{background-color: purple;}
+
+#obk_mainDiv .obk_calendarRow select,
+#obk_mainDiv .obk_calendarRow input{
+	background-color: #ececec!important;
+    border: none!important;
+	color: white;
+}
+
+#obk_mainDiv .obk_calendarRow .obk_calendarRow{
+	padding: 0;
+}
+
+#obk_mainDiv #obk_calendar{
+	margin-bottom: 20px;
+	position: relative;
+	background-color: white;
+	padding: 5px;
+}
+
+#obk_mainDiv #obk_calendar .obk_calendrier .obk_calendarRow{
+	padding: 0;
+}
+
+#obk_mainDiv #obk_calendar .obk_calendrier .obk_calendarRow > div{
+	width: 15%;
+}
+
+#obk_mainDiv .obk_calendarDaysPart2{
+    height: 50px;
+}
+
+#obk_mainDiv .obk_calendarToday{
+	font-weight: bold;
+	color: red;
+}
+
+#obk_mainDiv #obk_calendarLoading{
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+	display: none;
+}
+
+#obk_mainDiv .obk_loadingAnimation{
+	background: url("../img/refresh.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	-webkit-animation: obk_rotating 2s linear infinite;
+	-moz-animation: obk_rotating 2s linear infinite;
+	-ms-animation: obk_rotating 2s linear infinite;
+	-o-animation: obk_rotating 2s linear infinite;
+	animation: obk_rotating 2s linear infinite;
+}
+
+@-webkit-keyframes obk_rotating{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes obk_rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#obk_mainDiv #obk_displayOptions{
+	margin-top: 20px;
+}
+
+#obk_mainDiv #obk_optionsBackup,
+#obk_mainDiv #obk_reductionBackup,
+#obk_mainDiv #obk_couponBackup{
+	display: none;
+}
+
+#obk_mainDiv .obk_flex{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+}
+
+#obk_mainDiv .obk_spaceDescription{
+	margin-bottom: 20px;
+}
+
+#obk_mainDiv .obk_periodList > div {
+    display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+    -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#obk_mainDiv .obk_periodList{
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	margin-bottom: -1px;
+    padding: 5px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#obk_mainDiv #obk_information_front .obk_periodList input[disabled]{
+	width: initial!important;
+}
+
+@media screen and (max-width: 1024px) {
+	#obk_mainDiv .obk_bookingPayment{
+		-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_mainDiv form {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#obk_mainDiv .obk_bookingPayment{
+		text-align: center;
+	}
+	#obk_mainDiv .obk_payBookingBtn{
+		float: none;
+	}
+	#obk_mainDiv #obk_navBar form {
+		margin-bottom: 0px;
+	}
+	#obk_mainDiv #obk_form_front tr, #obk_mainDiv #obk_information_front tr{
+		display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_mainDiv #obk_form_front input, #obk_mainDiv input[type="submit"]{
+		width: 100%;
+	}
+	#obk_mainDiv #obk_information_front .obk_formRow,
+	#obk_mainDiv #obk_form_front .obk_formRow{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_mainDiv #obk_information_front .obk_formRow div:nth-child(2),
+	#obk_mainDiv #obk_form_front .obk_formRow div:nth-child(2){
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#obk_mainDiv #obk_information_front .obk_formRow div:first-child,
+	#obk_mainDiv #obk_form_front .obk_formRow div:first-child{
+		width: 100%;
+	}
+	#obk_mainDiv .obk_previewRow,
+	#obk_mainDiv .obk_flex{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_mainDiv .obk_calendarDaysPart2{
+		display: none;
+	}
+	#obk_mainDiv .obk_previewResume input{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#obk_mainDiv .obk_calendrier td {
+		padding: 0;
+		border: none;
+	}
+	#obk_mainDiv .obk_calendrier th {
+		padding: 0;
+	}
+	#obk_mainDiv select{
+		width: 100%;
+		margin: 0;
+	}
+	#obk_mainDiv #obk_form_heure_debutp1,
+	#obk_mainDiv #obk_form_heure_debutp2,
+	#obk_mainDiv #obk_form_heure_finp1,
+	#obk_mainDiv #obk_form_heure_finp2{
+		width: initial;
+	}
+	#obk_mainDiv p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	#obk_mainDiv input{
+		width: 100%;
+	}
+	#obk_mainDiv #submit{
+		max-width: none;
+	}
+	#obk_mainDiv .obk_box input[type="text"]{
+		width: 100%;
+	}
+	#obk_mainDiv form{
+		margin-bottom: 10px;
+	}
+	#obk_mainDiv #obk_navBar input[type="button"]{
+		max-width: 32px;
+		padding: 7px;
+	}
+}
+

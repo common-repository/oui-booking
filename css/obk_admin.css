@@ -1,0 +1,1312 @@
+#adminmenu .wp-menu-image img{
+	padding: 5px 0 0;
+}
+#obk_content{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	padding-right: 20px;
+}
+
+#obk_content input[disabled]{
+	background-color: transparent;
+	border: 0px;
+	color: #444;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#obk_content input[type="checkbox"]{
+	margin-top: 0px!important;
+}
+
+#obk_content #obk_labelShortcode{
+	color: #c75c5c;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+	cursor: text;
+}
+
+#obk_content #obk_tabShortcodes .obk_column-primary{
+	width: 300px;
+}
+
+#obk_content .obk_shortcodeRedirectionBlock{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#obk_content .obk_shortcodeRedirectionSelect{
+	min-width: 250px;
+}
+
+#obk_content .obk_shortcodeRedirection{
+	min-width: 100px;
+	display: inline-block;
+}
+
+#obk_content #obk_spanShortcode{
+	padding-right: 40px;
+    font-size: 0.9em;
+    font-weight: normal;
+    float: right;
+}
+
+#obk_content .obk_flex{
+	display: -webkit-box!important;display: -ms-flexbox!important;display: -webkit-flex!important;display: flex!important;
+}
+
+#obk_content #tabEmplacements, 
+#obk_content #obk_hiddenWPEditor{
+	display: none;
+}
+
+#obk_content #obk_parentWPEditor div:first-child{
+	padding: 0;
+}
+
+#obk_content #wp-description-editor-container #description_ifr{
+	min-height: 400px;
+}
+
+#obk_content img.emoji{
+	height: auto!important;
+	width: 26px!important;
+	height: 26px!important;
+	line-height: 26px!important;
+}
+
+#obk_content .obk_daysAvailable{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+}
+
+#obk_content .obk_daysAvailable div:first-child{
+	padding: 0!important;
+}
+
+#obk_content #obk_mainPluginTitle{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+    -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+    -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	margin-bottom: 0;
+}
+
+#obk_content #obk_mainPluginTitle > span{
+	display: block;
+}
+
+#obk_content #obk_welcome{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#obk_content #obk_welcome_en, #obk_content #obk_welcome_fr{
+	width: 100%;
+	min-width: 400px;
+}
+
+#obk_content #obk_welcome_en div, #obk_content #obk_welcome_fr div{
+	margin: 10px;
+	padding: 10px;
+	background-color: #f5f5f5;
+}
+
+#obk_content #obk_content1{
+	width: 1280px;
+}
+
+#obk_content #obk_content2{
+	width: 300px;
+	display: none;
+}
+
+#obk_content #obk_content2 div:first-child{
+	padding: 20px;
+}
+
+#obk_content h2{
+	margin-top: 10px;
+}
+
+#obk_content select {
+    position: relative;
+    top: -1px;
+}
+
+#obk_content input[type="text"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#obk_content input[type="number"] {
+    width: 80px;
+}
+
+#obk_content .obk_wrap{
+	max-width: 1400px;
+    margin: 0px auto;
+}
+
+#obk_content .submit{
+	display:inline-block;
+	margin-left:5px;
+	padding-bottom:0px;
+	margin-top:0px!important;
+	padding-top:0px!important;
+}
+
+.wp-core-ui #obk_content .button-primary:active{
+	vertical-align: initial;
+}
+
+#obk_content .obk_help_add_location{
+	background-color: #4ca556;
+	border-color: #4ca556 #4ca556 #4ca556;
+    -webkit-box-shadow: 0 1px 0 #4ca556;
+    box-shadow: 0 1px 0 #4ca556;
+	padding: 0 12px 2px;
+	color: #fff;
+}
+
+#obk_content .obk_help_edit_space_onglet{
+	background-color: #4ca556!important;
+}
+
+#obk_content .obk_help_edit_space_onglet a{
+	color: white!important;
+}
+
+#obk_content .obk_help_edit_space{
+	background-color: #4ca556;
+	padding: 5px;
+	-webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end;
+    width: 100%;
+}
+
+#obk_content .obk_addLocationSpace{
+    background-color: white;
+    padding: 15px 50px 10px 50px;
+}
+
+#obk_content .obk_addLocationSpace .obk_buttons{
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#obk_content .obk_addLocationSpace .obk_buttons .button{
+	width: 100%;
+	margin-left: 0px;
+}
+
+#obk_content .obk_addLocationSpace .obk_buttons .submit{
+	margin-left: 0px;
+}
+
+#obk_content .obk_addLocationSpace .obk_buttons p,
+#obk_content .obk_addLocationSpace input[type="text"]{
+	width: 100%!important;
+}
+
+#obk_content .obk_adminNotice{
+	background-color: #4ca556;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#obk_content .obk_adminNoticeError{
+	background-color: #cc4e3b;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#obk_content .obk_adminNoticeWarning{
+	background-color: #ea9c00;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#obk_content .obk_colorOption{
+	 display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	 -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#obk_content .obk_colorOption div{
+	padding: 0!important;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+#obk_content .obk_btnClose{
+	float: right;
+	cursor: pointer;
+}
+
+#obk_content .obk_headBar .button-primary {
+	margin-right: 5px;
+	width: 33%;
+	display: block;
+}
+
+#obk_content .obk_headBar #obk_btnEditSpace.button-primary{
+	margin-right: 0;
+}
+
+#obk_content #obk_contentReservations .submit,
+#obk_content #obk_contentReservations input[type="submit"]{
+	width: 100%;
+	max-width: 200px;
+}
+
+#obk_content button{
+	font-weight: bold;
+}
+
+#obk_content .obk_widefat td p{
+	margin-bottom:0px;
+}
+
+#obk_content .obk_widefat td {
+	padding: 10px 0;
+}
+
+#obk_content .obk_delete .button{
+	background-color: red;
+	color: white;
+	-webkit-box-shadow: 0px 1px 0px 0px red;
+	box-shadow: 0px 1px 0px 0px red;
+	border-color: red;
+	position: relative;
+	min-height: 30px;
+}
+
+#obk_content .obk_buttons{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	width: 100%;
+}
+
+#obk_content .obk_buttons div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#obk_content .obk_deleteAjax{
+	background-color: red;
+    cursor: pointer;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 31px;
+    -webkit-box-shadow: 0 1px 0 #ffa8a8;
+    box-shadow: 0 1px 0 #ffa8a8;
+    border: 1px solid #e00000;
+}
+
+#obk_content .obk_accordion{
+	background-color: #3b88c3;
+	color: #fff;
+	padding: 5px!important;
+	text-align: left;
+	border: none;
+	outline: none;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#obk_content .obk_accordion{
+	font-size: 16px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#obk_content .obk_accordion span{
+	margin-right:5px;
+}
+
+#obk_content .obk_panel table{
+	width: 100%;
+}
+
+#obk_content .obk_rotate_arrow_price{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+}
+
+#obk_content .obk_norotate_arrow_calendar{
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+}
+
+#obk_content .obk_rotate_arrow_calendar{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+	position: relative;
+    top: -2px;
+	cursor: pointer;
+}
+
+#obk_content #obk_calendarLoading{
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+	display: none;
+}
+
+#obk_content .obk_loadingAnimation{
+	background: url("../img/refresh.png") no-repeat;
+	height: 40px!important;
+	width: 40px!important;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	-webkit-animation: obk_rotating 2s linear infinite;
+	-moz-animation: obk_rotating 2s linear infinite;
+	-ms-animation: obk_rotating 2s linear infinite;
+	-o-animation: obk_rotating 2s linear infinite;
+	animation: obk_rotating 2s linear infinite;
+}
+
+@-webkit-keyframes obk_rotating{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes obk_rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#obk_content .obk_bloc{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+#obk_content .obk_headBar .submit,
+#obk_content .obk_headBar .submit #submit{
+	width: 100%;
+	margin-left: 0;
+}
+
+#obk_content .obk_headBar > div{
+	width: 33%;
+    margin-right: 5px;
+}
+
+#obk_content .obk_headBar{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex; 
+	background-color: #ffffff;
+	padding: 5px 0 10px 0;
+}
+
+#obk_content .obk_headBarEdit{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	margin-top: 5px;
+}
+
+#obk_content .obk_headBarEdit > div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	margin-left: 160px;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+}
+
+#obk_content .obk_recentBookings .obk_headBarEdit > div{
+	margin-left: 0px;
+}
+
+#obk_content .obk_headBarEdit select{
+	min-width: 162px;
+}
+
+#obk_content .obk_headBarEdit input[type="text"]{
+	width: 162px;
+}
+
+#obk_content .obk_headBarEdit > div > form{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+}
+
+#obk_content textarea{
+	width:100%;
+}
+
+#obk_content .obk_form{
+	display:inline-block;
+	margin-right:5px;
+} 
+
+#obk_content .obk_plugin_onglets li {
+	min-width: 14%;
+	text-align: center;
+	background-color: whitesmoke;	
+}
+
+#obk_content #obk_plugin_onglets_coupons2_li,
+#obk_content #obk_plugin_onglets_options2_li{
+	width: 50%;
+}
+	
+
+#obk_content .obk_plugin_onglets{
+	list-style-type: none;
+	margin: 0px 0 5px 0;
+	padding: 0;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#obk_content .obk_plugin_onglets_mp{
+	margin-top: 5px;
+}
+
+
+#obk_content dd, 
+#obk_content li {
+    margin-bottom: 0;
+}
+
+#obk_content h2#obk_mainTitle {
+    padding: 7px 3px 7px 10px;
+    text-transform: uppercase;
+    margin: 0;
+	text-align: center;
+}
+
+#obk_content .obk_plugin_onglets li a{
+	display: inline-block;
+    color: #3b88c3;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 7px 0px;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+#obk_content .obk_plugin_onglets .obk_isactive, 
+#obk_content .obk_plugin_onglets li:hover,
+#obk_content .obk_plugin_onglets li a:hover{
+	background-color: #0085ba;
+	color: #FFFFFF!important;
+}
+
+#obk_content .obk_isactive a{
+	color: white!important;
+}
+
+#obk_content button.obk_accordion {
+	background-color: #FFFFFF;
+	color: #0085ba;
+	cursor: pointer;
+	padding: 8px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	margin-top: 5px;
+	font-weight: bold;
+    font-size: 18px;
+    border-bottom: 5px solid #0085ba;
+}
+
+#obk_content #obk_plugin_onglets_coupons button.obk_accordion,
+#obk_content #obk_plugin_onglets_reductions button.obk_accordion, 
+#obk_content #obk_plugin_onglets_taxes button.obk_accordion, 
+#obk_content #obk_plugin_onglets_options button.obk_accordion,
+#obk_content #obk_plugin_onglets_options2 button.obk_accordion,
+#obk_content #obk_plugin_onglets_coupons2 button.obk_accordion {
+    border-top: 1px solid #e2e2e2;
+    background-color: #f5f5f5;
+    margin-top: 0px;
+    border-bottom: none;
+    color: #0085ba;
+}
+
+#obk_content div.obk_panel {
+	padding: 0 18px;
+	background-color: #f5f5f5;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: max-height 0.2s ease-out;
+	-o-transition: max-height 0.2s ease-out;
+	transition: max-height 0.2s ease-out;
+}
+
+#obk_content #obk_plugin_onglets_calendrier{
+	max-width: 100%;
+}
+
+#obk_content #obk_contentReservations table{
+	width: 100%;
+}
+
+#obk_content #obk_plugin_onglets_options2 h2, 
+#obk_content #obk_plugin_onglets_taxes2 h2, 
+#obk_content #obk_plugin_onglets_reductions2 h2, 
+#obk_content #obk_plugin_onglets_coupons2 h2, 
+#obk_content #obk_plugin_onglets_general3 h2, 
+#obk_content #obk_plugin_onglets_formulaire3 h2, 
+#obk_content #obk_plugin_onglets_messages3 h2, 
+#obk_content #obk_plugin_onglets_calendrier3 h2{
+	padding-top: 15px;
+}
+
+#obk_content #obk_plugin_onglets_principal, 
+#obk_content #obk_plugin_onglets_formulaire, 
+#obk_content #obk_plugin_onglets_options2, 
+#obk_content #obk_plugin_onglets_taxes2, 
+#obk_content #obk_plugin_onglets_reductions2, 
+#obk_content #obk_plugin_onglets_coupons2, 
+#obk_content #obk_plugin_onglets_general3, 
+#obk_content #obk_plugin_onglets_formulaire3, 
+#obk_content #obk_plugin_onglets_messages3, 
+#obk_content #obk_plugin_onglets_calendrier3, 
+#obk_content #obk_plugin_onglets_coupons, 
+#obk_content #obk_plugin_onglets_reductions, 
+#obk_content #obk_plugin_onglets_taxes, 
+#obk_content #obk_plugin_onglets_options, 
+#obk_content #obk_plugin_onglets_general, 
+#obk_content #obk_plugin_onglets_formulaire, 
+#obk_content #obk_plugin_onglets_messages, 
+#obk_content #obk_plugin_onglets_calendrier{
+	margin-bottom: 20px;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	background-color: #ffffff;
+    padding: 10px 0;
+}
+
+#obk_content #obk_plugin_onglets_general3 div:first-child{
+	width: 100%;
+}
+
+#obk_content #obk_plugin_onglets_principal, 
+#obk_content #obk_plugin_onglets_formulaire{
+	padding: 0;
+}
+
+#obk_content #obk_plugin_onglets_options2, 
+#obk_content #obk_plugin_onglets_taxes2, 
+#obk_content #obk_plugin_onglets_reductions2, 
+#obk_content #obk_plugin_onglets_coupons2{
+	-webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start;
+}
+
+#obk_content table.obk_widefat{
+	background-color: #f5f5f5;
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#obk_content .obk_widefat th{
+    border-bottom: 5px solid #0085ba;
+    color: #0085ba!important;
+    background-color: white;
+	padding: 5px;
+	text-align: left;
+}
+
+#obk_content #obk_OT{
+	display: none;
+}
+
+#obk_content .obk_weekHeader{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#obk_content .obk_w12{
+	width: 12%;
+}
+
+#obk_content .obk_calendarLabelDay{
+	font-size:10px;
+}
+
+#obk_content .obk_calendarDateDay{
+	font-size:20px;
+}
+
+#obk_content .obkCalendarContent{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	position:relative;
+}
+
+#obk_content .obk_calendarTimes{
+	font-size:10px;
+	position:relative;
+	top:-8.5px;
+}
+
+#obk_content .obk_calendarTimes:last-child{
+	height: 0px!important;
+}
+
+#obk_content .obk_calendarAllDay{
+	z-index:1;
+	position:relative;
+}
+
+#obk_content .obk_calendarFullZero{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#obk_content .obk_calendarOnePeriod{
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#obk_content .obk_calendarGrid{
+	position:absolute;
+	top:0;
+	left:12%;
+	width:88%;
+}
+
+#obk_content .obk_calendarBookingUnavailable{
+	font-size:14px;
+	color:red;
+}
+
+#obk_content .obk_calendarGridRow{
+	border-top:1px solid #f4f4f4;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#obk_content .obk_CalendarLegend{
+	font-size:12px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	color:white;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	margin:10px;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#obk_content .obk_CalendarLegend div{
+	padding: 2px;
+	margin: 2px;
+}
+
+#obk_content .obk_calendarClosed{background-color: #cccccc;}
+#obk_content .obk_calendarAllAvailable{background-color: #3b88c3;}
+#obk_content .obk_calendarAvailable{background-color: #e07423;}
+#obk_content .obk_calendarUnavailable{background-color: #f70000;}
+#obk_content .obk_calendarArrival{background-color: green;}
+#obk_content .obk_calendarDeparture{background-color: purple;}
+
+
+#obk_content .obk_general_panel div:first-child{
+	padding: 0 1px;
+}
+
+#obk_content .obk_pad10{
+	padding: 10px 1px 0 1px;
+}
+
+#obk_content .obk_calendrier{
+	width: 100%;
+}
+
+#obk_content .obk_calendrier td{
+	padding: 15px 0!important;
+	font-weight: bold;
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#obk_content .obk_calendrier tr th{
+	padding: 5px;
+}
+
+#obk_content .obk_calendrier tr:first-child th{
+	padding: 8px;
+	font-size: 18px;
+}
+
+#obk_content .obk_calendrier td:hover{
+	background-color: #cccccc;
+}
+
+#obk_content .obk_calendrier_heading{
+	text-align: center;
+	background-color: #0085ba;
+    color: white;
+}
+
+#obk_content .obk_calendrier tr{
+	border: none;
+}
+
+#obk_content #obk_calendar, 
+#obk_content #obk_navBar{
+	margin: auto;
+	background: #f5f5f5;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 5px;
+}
+
+#obk_content #obk_navBar{
+	background: #77b3d4;
+}
+
+#obk_content #obk_calendar td{
+	padding: 0;
+}
+
+#obk_content #obk_calendar table{
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#obk_content .obk_calendarYear{
+	display: none!important;
+}
+
+#obk_content .obk_fields{
+	display:inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	min-width: 200px;
+	width: initial!important;
+}
+
+#obk_content .obk_fieldsMsg{
+	display:inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-width: 550px;
+	width: 100%;
+}
+
+#obk_content .obk_inputFieldsMsg{
+	max-width: 550px;
+	width: 100%;
+}
+
+#obk_content .obk_boxes{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    width: 100%;
+    -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+    padding-right: 12px;
+}
+
+#obk_content .obk_box{
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#obk_content .obk_box select{
+	min-width: 162px;
+	margin-right: 0px;
+}
+
+#obk_content .obk_box input[type="text"]{
+	width: 162px;
+}
+
+#obk_content .obk_booking_column{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+#obk_content .obk_booking_column #obk_idSpace,
+#obk_content .obk_booking_column [name="nb_de_place"]
+{
+	background-color: #0085ba;
+    color: white;
+}
+
+#obk_content .obk_plugin_onglets_principal{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#obk_content .obk_general_panel{
+	display: inline-block;
+	width: 49%;
+	min-width: 350px;
+	vertical-align: top;
+}
+
+#obk_content #obk_plugin_onglets_optionsMenu .obk_general_panel{
+	width: 100%;
+}
+
+#obk_content h3{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding: 7px 10px;
+    color: #0085ba;
+    border-bottom: 5px solid #0085ba;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#obk_content .obk_masked{
+	display: none;
+}
+
+#obk_content .obk_pricemodif_column{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+#obk_content #obk_plugin_onglets_options2 h2, 
+#obk_content #obk_plugin_onglets_taxes2 h2, 
+#obk_content #obk_plugin_onglets_reductions2 h2,
+#obk_content #obk_plugin_onglets_coupons2 h2, 
+#obk_content #obk_plugin_onglets_options h2{
+	margin-bottom: 0px;
+}
+
+#obk_content .obk_errorMsg{
+	color: red;
+}
+
+#obk_content #obk_navBar input[type="button"] {
+    background: #0085ba;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+#obk_content #obk_navBar table {
+    margin: auto;
+}
+
+#obk_content .obk_general_panel td{
+	max-width: 340px;
+	padding: 0px;
+}
+
+#obk_content input[type="date"][disabled]{
+	padding: 0;
+	margin: 0;
+}
+
+#obk_content #obk_contentReservations input[type="date"][disabled]{
+	text-align: center;
+}
+
+#obk_content .obk_column-primary{
+	text-align: center;
+    padding-right: 10px!important;
+	padding-top: 6px;
+}
+
+#obk_contentReservations input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#obk_contentReservations input[type="date"]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#obk_content #obk_addSpaceForm,
+#obk_content #obk_editSpaceForm{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 999999999;
+    -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+}
+
+#obk_content #obk_addSpaceForm form,
+#obk_content #obk_editSpaceForm form{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#obk_content #obk_addSpaceForm h2,
+#obk_content #obk_addSpaceForm input[type="text"]
+#obk_content #obk_editSpaceForm h2,
+#obk_content #obk_editSpaceForm input[type="text"]{
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+#obk_content .obk_selectOverflow{
+	overflow: auto;
+	height: auto;
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+
+#obk_content .obk_periodList,
+#obk_content .obk_periodListClosure{
+	background-color: #dddddd;
+    padding: 5px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#obk_content .obk_periodListClosure > div,
+#obk_content .obk_periodList > div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#obk_content .obk_periodListClosure,
+#obk_content .obk_periodList{
+	margin-bottom: 1px;
+}
+
+#obk_content .obk_priceDay{
+	min-width: 130px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1800px) {
+	#obk_content .obk_widefat td:nth-child(11),
+	#obk_content .obk_widefat td:nth-child(10){
+		display: none;
+	}
+	#obk_content .obk_widefat th:nth-child(11),
+	#obk_content .obk_widefat th:nth-child(10){
+		display: none;
+	}
+	
+	#obk_content #obk_content1{
+		width: 920px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1440px) {
+	#obk_content .obk_widefat td:nth-child(9),
+	#obk_content .obk_widefat td:nth-child(8){
+		display: none;
+	}
+	#obk_content .obk_widefat th:nth-child(9),
+	#obk_content .obk_widefat th:nth-child(8){
+		display: none;
+	}
+	#obk_content #obk_content1{
+		width: 100%;
+	}
+	#obk_content #obk_content2{
+		width: 100%;
+		text-align: center;
+	}
+	#obk_content2 br {
+		display: none;
+	}
+	#obk_content2 a {
+		display: inline-block;
+		margin-top: 20px;
+	}
+	#obk_content .obk_colorOption div{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#obk_content .obk_booking_column{
+		width: 50%;
+	}
+	#obk_content .obk_widefat td:nth-child(7), 
+	#obk_content .obk_widefat td:nth-child(6), 
+	#obk_content .obk_widefat td:nth-child(5){
+		display: none;
+	}
+	#obk_content .obk_widefat th:nth-child(7), 
+	#obk_content .obk_widefat th:nth-child(6), 
+	#obk_content .obk_widefat th:nth-child(5){
+		display: none;
+	}
+	#obk_content .obk_shortcodeRedirectionBlock{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_content .obk_headBarEdit > div{
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 782px) {
+	#obk_content #obk_plugin_onglets_coupons2_li, #obk_content #obk_plugin_onglets_options2_li{
+		width: 100%;
+	}
+	#obk_content .obk_booking_column,
+	#obk_content .obk_booking_column input,
+	#obk_content .obk_booking_column select{
+		width: 100%;
+	}
+	#obk_content .obk_bloc{
+		width: 100%;
+	}
+	#obk_content .obk_bloc input{
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
+		margin-bottom: 10px;
+	}
+	
+	#obk_content .obk_widefat td:nth-child(4){
+		display: none;
+	}
+ 
+	#obk_content .obk_widefat th:nth-child(4){
+		display: none;
+	}
+	#obk_content .obk_plugin_onglets{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column
+		-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	}
+	#obk_content .obk_plugin_onglets li{
+		width: 100%;
+		margin-bottom: 1px;
+	}
+	#obk_content .obk_plugin_onglets li a{
+		padding: 7px 0px;
+	}
+	#obk_content .obk_box{
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+	#obk_content .obk_pricemodif_column{
+		width: 100%;
+	}
+	#obk_content .obk_rotate_arrow_price{
+		-webkit-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+	#obk_content .obk_no_rotate_arrow_price{
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		display: inline-block;
+	}
+	#obk_content .obk_box{
+		display: none;
+	}
+	#obk_content .obk_box:last-child{
+		display: block;
+	}
+	#obk_content .obk_general_panel{
+		width: 100%;
+		min-width: unset;
+	}	
+	
+	#obk_content .obk_addLocationSpace input, 
+	#obk_content .obk_addLocationSpace select, 
+	#obk_content .obk_addLocationSpace form, 
+	#obk_content .obk_addLocationSpace textarea{
+		width: 100%!important;
+	}
+	#obk_content input[type="radio"]{
+		width: 16px!important;
+		height: 16px!important;
+	}	
+	#obk_content .obk_addLocationSpace #submit{
+		max-width: none;
+	}
+	#obk_content .obk_addLocationSpace p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#obk_content .obk_headBarEdit > div > form{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#obk_content .obk_headBarEdit input, 
+	#obk_content .obk_headBarEdit select, 
+	#obk_content .obk_headBarEdit form, 
+	#obk_content .obk_headBarEdit textarea{
+		width: 100%!important;
+	}
+	#obk_content .obk_headBar input, 
+	#obk_content .obk_headBar select, 
+	#obk_content .obk_headBar form, 
+	#obk_content .obk_headBar textarea{
+		width: 100%!important;
+	}
+	#obk_content .obk_headBarEdit #submit,
+	#obk_content .obk_headBar #submit{
+		max-width: none;
+	}
+	#obk_content .obk_headBarEdit p.submit,
+	#obk_content .obk_headBar p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#obk_content .obk_addLocationSpace{
+		margin-bottom: 20px;
+	}
+	
+	#obk_content .obk_headBarEdit div,
+	#obk_content .obk_headBar div{
+		width: 100%;
+		display: block;
+	}
+	
+	#obk_content .obk_headBar {
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	
+	#obk_content #obk_mainPluginTitle{
+		display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+		-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+		-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+		-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	#obk_content .obk_addLocationSpace{
+		width: initial!important;
+	}
+	#obk_content .obk_buttons div{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 350px) {
+	#obk_content .obk_widefat td:nth-child(3){
+		display: none;
+	}
+	#obk_content .obk_widefat th:nth-child(3){
+		display: none;
+	}
+	#obk_content select{
+		width: 100%;
+		margin: 0;
+	}
+	#obk_content p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	#obk_content input, 
+	#obk_content select, 
+	#obk_content textarea{
+		width: 100%!important;
+	}
+	#obk_content input[type="checkbox"]{
+		width: 25px!important;
+	}
+	#obk_content #submit{
+		max-width: none;
+	}
+	#obk_content .obk_box input[type="text"]{
+		width: 100%;
+	}
+	#obk_content form{
+		margin-bottom: 0px;
+	}
+	
+	#obk_content .obk_box{
+		padding: 0px;
+		margin-right: 12px;
+	}
+	#obk_content .obk_calendrier td {
+		padding: 0;
+	}
+	#obk_content .obk_box select,
+	#obk_content .obk_box input[type="text"]{
+		width: 49%;
+		min-width: unset;
+	}
+	#obk_content .obk_box .submit{
+		width: 40%;
+		position: relative;
+		top: 2px;
+		margin-left: 5px;
+	}
+	#obk_content .obk_box form + form .submit{
+		top: -2px;
+	}
+	#obk_content .obk_shortcodeRedirectionSelect {
+		min-width: 100%;
+	}
+	#obk_content #obk_mainPluginTitle img{
+		width: 100%;
+	}
+	#obk_content .obk_daysAvailable{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+}
